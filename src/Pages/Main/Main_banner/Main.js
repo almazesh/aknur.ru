@@ -44,7 +44,6 @@ const Main = () =>{
                                 <a href="https://www.instagram.com/bagtlyzamana/" target="_blank">
                                     <img alt="" src={Instagram} className={cls.main_instagram}/>
                                 </a>
-                                <img alt="" src={Vector} className={cls.main_wave}/>
                                 
                             </div>
                         </div>
