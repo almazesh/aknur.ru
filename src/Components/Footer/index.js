@@ -99,9 +99,9 @@ const Footer = () =>{
                             <ul className={cls.unact} >
                                <><h3>{footer.contacts}</h3> </>
                                <li>
-                                   <>
+                                   <Link to='/contact'>
                                        {footer.becomeDeal}
-                                   </>
+                                   </Link>
                                </li>
                                <li>
                                    <>

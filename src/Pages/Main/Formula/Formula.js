@@ -555,7 +555,7 @@ const Formula = () =>{
                             return (
                             <div fade="true" key={item.id} className={index === 0 ? cls.dark_left : cls.dark_right}>
                                     <div className={cls.cardHeight}>
-                                        <img alt="" src={item.image}/>
+                                        <img alt="" style={{width:item.size}} src={item.image}/>
                                     </div>
                                     <h2>{item.title}</h2>
                                     <p>
@@ -569,7 +569,9 @@ const Formula = () =>{
                     }
                     
                 </div>
-
+                    {/* {
+                        DeviceMotionEvent.map(item =>{})
+                    } */}
                 <div className={cls.slide_block}>
                     {
                         Mains.sliderBase.map((item , index) =>(
@@ -673,9 +675,7 @@ const Formula = () =>{
                        <div className={cls.slide_banner_center  }>
                        <Swiper 
                        spaceBetween={0}
-                       pagination={{
-                        "dynamicBullets": true
-                      }} 
+                       
                        slidesPerView={1}
                        onSlideChange={() => console.log('slide change')}
                        onSwiper={(swiper) => console.log(swiper)}

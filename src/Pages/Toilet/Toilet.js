@@ -20,45 +20,49 @@ import peachBubble from '../../assets/Soap product/peachBubble.png'
 import { useState } from 'react'
 import Combo from '../../assets/Soap product/bubbleCom.png'
 import {useSelector} from 'react-redux'
-const data = [
-    {
-        id: 1,
-        original: LavanderBtn,
-        mainPicture: LavanderCard,
-        thumbnail: LavanderBubble
-        
-    },
-    {
-        id: 2,
-        original: MintBtn,
-        mainPicture: MintCard,
-        thumbnail:MintBubble,
-        circle:Green,
-        circleText:'Мята'
 
-        
-    },
-    {
-        id: 3,
-        original: GarnetBtn,
-        mainPicture:GarnetCard,
-        thumbnail:granatBubble
-    },
-    {
-        id: 4,
-        original: PeachBtn,
-        mainPicture:PeachCard,
-        thumbnail:peachBubble,
-
-        circle:Pink,
-        circleText:'Гранат'
-
-    }
-]
 
 const Toilet = () =>{
-    const [activeImg, setActiveImg] = useState(data[1])
     const {selectedLang:{Soap}} = useSelector(s => s.Lang)
+
+    const data = [
+        {
+            id: 1,
+            original: LavanderBtn,  
+            mainPicture: LavanderCard,
+            thumbnail: LavanderBubble
+            
+        },
+        {
+            id: 2,
+            original: MintBtn,
+            mainPicture: MintCard,
+            thumbnail:MintBubble,
+            circle:Green,
+            circleText:Soap.circleMint
+    
+            
+        },
+        {
+            id: 3,
+            original: GarnetBtn,
+            mainPicture:GarnetCard,
+            thumbnail:granatBubble
+        },
+        {
+            id: 4,
+            original: PeachBtn,
+            mainPicture:PeachCard,
+            thumbnail:peachBubble,
+    
+            circle:Pink,
+            circleText:Soap.circleGranat
+    
+        }
+    ]
+    
+    const [activeImg, setActiveImg] = useState(data[1])
+    
     const handleChangeImage = item => {
         setActiveImg(item)
     }

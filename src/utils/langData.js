@@ -61,7 +61,7 @@ export const ruLangData = {
         easyWork:'Легко справляется с трудновыводимыми пятнами',
         componentGran:'Равномерное распределение компонентов в гранулах',
         effectLow:'Эффективен при низких температурах и любой жесткости воды',
-        btnConnect:'связатся'
+        btnConnect:'связаться'
     },
     Contact:{
         contactTitle:'СТАТЬ ДИЛЕРОМ',
@@ -128,7 +128,8 @@ export const ruLangData = {
                     id:5,
                     title:'кислородный отбеливатель',
                     image:'img/ceaner icon.png',
-                    text:'Кислородный отбеливатель и пятновыводитель «Ак Нур Oxi Action» предназначен для удаления сложных загрязнений и пятен, с которыми могут не справиться стиральные порошки. Не содержит хлор.'
+                    text:'Кислородный отбеливатель и пятновыводитель «Ак Нур Oxi Action» предназначен для удаления сложных загрязнений и пятен, с которыми могут не справиться стиральные порошки. Не содержит хлор.',
+                    size:'150px'
                 },
                 {
                     id:6,
@@ -219,7 +220,8 @@ export const ruLangData = {
         local:'УСЛОВИЯ ХРАНЕНИЯ:',
         localText:'Хранить при температуре не ниже -50 С и влажности не более 75%',
 
-
+        circleMint:'Мята',
+        circleGranat:'Гранат'
     },
     Otbel:{
         otbelTitle:'КИСЛОРОДНЫЙ ОТБЕЛИВАТЕЛЬ АКНУР OXI ACTION 500 ГР.',
@@ -514,7 +516,9 @@ export const enLangData = {
                 id:5,
                 title:'oxygen bleach',
                 image:'img/ceaner icon.png',
-                text:'Oxygen bleach and stain remover “Ak nur Oxi Action” is designed to remove difficult dirt and stains that detergents cannot cope with. It does not contain chlorine.'
+                text:'Oxygen bleach and stain remover “Ak nur Oxi Action” is designed to remove difficult dirt and stains that detergents cannot cope with. It does not contain chlorine.',
+                size:'150px'
+
             },
             {
                 id:6,
@@ -596,7 +600,10 @@ export const enLangData = {
         safeText:'Use for external use only; In case of contact with eyes, rinse generously with water. In case of contact with the mouth - rinse thoroughly with running water.',
 
         local:' STORAGE CONDITIONS:',
-        localText:'Store at a temperature not lower than -5°С and humidity not more than 75%. '
+        localText:'Store at a temperature not lower than -5°С and humidity not more than 75%. ',
+
+        circleMint:'Mint',
+        circleGranat:'Granat'
     },
     Otbel:{
         otbelTitle:'OXYGEN BLEACH ACNUR OXI ACTION 500 GR.',
@@ -851,7 +858,7 @@ export const tmLangData = {
         mainRight:'Aýawly ideg',
         formulaTitle:'tämizligiň we saglygyň formulasy',
         formulaText:'““Bagtly zamana” hojalyk jemgyýetiniň öndürýän kir ýuwujy serişdeleriniň täsin formulasy pes temperatura şertlerinde-de ýokary  netijeliligi üpjün edýär.',
-        formulaText2:'Kir ýuwujy serişdelerimiziň ählisiniň düzüminde matanyň durkuny we reňkini solmakdan goraýan komponentler bar. Olar islendik gatylykdaky suwda aňsatlyk bilen ereýär.',
+                    formulaText2:'Kir ýuwujy serişdelerimiziň ählisiniň düzüminde matanyň durkuny we reňkini solmakdan goraýan komponentler bar. Olar islendik gatylykdaky suwda aňsatlyk bilen ereýär.',
         productTitle:'Biziň önümlerimiz',
         orderTitle:'Dünýäniň islendik ýerine eltip bermek',
         orderText:'"Bagtly zamana" hojalyk jemgyýeti  öz önümleriniň lomaý satuwyny bütin dünýäde amala aşyrýar.',
@@ -887,7 +894,9 @@ export const tmLangData = {
             id:5,
             title:'kislorodly agardyjy',
             image:'img/ceaner icon.png',
-            text:'"Ak Nur Oxi Action" kislorodly agardyjy we tegmili aýyryjy kir ýuwujy serişdäniň aýryp bilmedik kyn, çylşyrymly hapalary we tegmilleri aýyrmak  üçin niýetlenendir. Düzüminde hlor ýokdur.'
+            text:'"Ak Nur Oxi Action" kislorodly agardyjy we tegmili aýyryjy kir ýuwujy serişdäniň aýryp bilmedik kyn, çylşyrymly hapalary we tegmilleri aýyrmak  üçin niýetlenendir. Düzüminde hlor ýokdur.',
+            size:'150px'
+
         },
         {
             id:6,
@@ -975,7 +984,10 @@ export const tmLangData = {
         safeText:'Diňe daşky ulanyş üçin niýetlenendir. Sabyn köpürjigi gözüňize düşen ýagdaýynda - gözüňizi arassa suw bilen ýuwuň. Agzyňyza düşen ýagdaýynda - agzyňyzy suw bilen çaýkaň.',
 
         local:'Saklanyş şertleri:',
-        localText:'-50С-den pes bolmadyk temperaturada we çyglylyk 75% -den köp bolmadyk ýerde saklamaly.'
+        localText:'-50С-den pes bolmadyk temperaturada we çyglylyk 75% -den köp bolmadyk ýerde saklamaly.',
+
+        circleMint:'Nane',
+        circleGranat:'Granat'
     },
     Otbel:{
         otbelTitle:'"Ak Nur Oxi Action" kislorodly agardyjysy 500 g',

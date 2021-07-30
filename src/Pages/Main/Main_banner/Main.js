@@ -8,6 +8,7 @@ import Vector from '../../../assets/Main/Vector.png'
 import Formula from '../Formula/Formula'
 import { useEffect } from 'react'
 import {useSelector} from 'react-redux'
+import { Link } from 'react-router-dom'
 const Main = () =>{
     const {selectedLang:{Mains}} = useSelector(s => s.Lang)
     useEffect(() => {
@@ -40,7 +41,9 @@ const Main = () =>{
                                 <img alt="" src={Bubble} className={cls.bubble_seven}/>
                                 <img alt="" src={Bubble} className={cls.bubble_eight}/>
                                 <img alt="" src ={Frame} className={cls.main_frame}/>
-                                <img alt="" src={Instagram} className={cls.main_instagram}/>
+                                <a href="https://www.instagram.com/bagtlyzamana/" target="_blank">
+                                    <img alt="" src={Instagram} className={cls.main_instagram}/>
+                                </a>
                                 <img alt="" src={Vector} className={cls.main_wave}/>
                                 
                             </div>
