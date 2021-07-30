@@ -1,0 +1,579 @@
+    @import url('../../assets/fonts/stylesheet.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+
+.ainur_banner{
+    width: 82%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.ainur_title{
+    padding-top: 200px;
+}
+
+.ainur_title h1{
+    color: rgba(4, 52, 128, 1);
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    font-size: 38px;
+    line-height: 46,36px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.ainur_title p{
+    color: rgba(4, 52, 128, 1);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    line-height: 30px;
+    width: 65%;
+    margin-top: 50px;
+}
+
+
+.ainur_content_inline{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.ainur_content_inline2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ainur_right {
+    width: 50%;
+    
+}
+
+.ainur_right h2{
+    font-size: 22px;
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    line-height: 35px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(4, 52, 128, 1);
+}
+
+.ainur_right p{
+   
+    color: rgba(4, 52, 128, 1);
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+
+}
+.ainur_right div{
+    margin: 50px 0px;
+}
+
+
+
+/*  */
+
+
+
+.ainur_inline_bubble{
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.ainur_bubble_right{
+    width: 50%;
+}
+
+.ainur_bubble_left{
+    position: relative;
+    width: 45%;
+}
+
+.ainur_bubble_left img{
+    position: absolute;
+}
+
+
+.bubble_ones{
+    width: 40px;
+    right: 200px;
+}
+
+.bubble_twos{
+    width: 70px;
+    right: 150px;
+    top: 30px;
+}
+
+.bubble_threes{
+    width: 90px;
+    top: 90px;
+    right: 180px;
+}
+
+
+.bubble_fours{
+    width: 60px;
+    right:300px;
+    bottom: -60px;
+}
+.ainur_bubble_right div h1{
+    color: rgba(4, 52, 128, 1);
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    letter-spacing: 0.2em;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.ainur_bubble_right div p{
+    color: rgba(4, 52, 128, 1);
+    font-size: 18px;
+    line-height:30px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.blue_back{
+    background:rgba(137, 205, 234, 1);
+    border-radius: 120px;
+    width: 442px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.card{
+    background-position: center;
+    background-size: cover;
+    width: 442px;
+    height: 652px;
+}
+.slide_inline{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.slide_inline div{
+    width: 80px;
+    height: 78px;
+    margin: 0 20px;
+}
+.block{
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  only screen and (max-width:1024px) {
+    
+    .ainur_content_inline{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+     
+    .ainur_content_inline2{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .ainur_left{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ainur_right{
+        width: 70%;
+    }
+
+    .block{
+        width:120px !important;
+        height: 90px !important;
+        background-repeat: no-repeat;
+    }
+    
+    .ainur_inline_bubble{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+
+    .ainur_bubble_right{
+        width: 70%;
+    }
+
+    .ainur_bubble_left{
+        position: relative;
+        width: 45%;
+    }
+
+
+    .block{
+        width: 80px !important;
+        height: 80px !important;
+    }
+
+    
+.bubble_ones{
+    width: 40px;
+    right: 200px;
+    top: -300px;
+}
+
+.bubble_twos{
+    width: 70px;
+    right: 150px;
+    top: -270px !important;
+}
+
+.bubble_threes{
+    width: 90px;
+    top: -190px !important;
+    left: 650px;
+}
+
+
+.bubble_fours{
+    width: 60px;
+    right:-200px;
+    bottom: 30px;
+}
+}
+
+
+
+
+
+
+
+@media  (max-width:800px) {
+    
+.bubble_ones{
+    width: 40px;
+    right: -100px !important;
+    display: none;
+    top: -300px;
+}
+
+.bubble_twos{
+    width: 70px;
+    right: 150px;
+    top: -270px !important;
+    display: none;
+}
+
+.bubble_threes{
+    width: 90px;
+    top: -190px !important;
+    left: 650px;
+    display: none;
+}
+
+
+.bubble_fours{
+    width: 60px;
+    display: none;
+    right:-200px;
+    bottom: 30px;
+}
+}
+
+
+
+
+
+@media  (max-width:414px) {
+    .ainur_banner{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 0px;
+    }
+    
+    .ainur_title{
+        padding-top: 150px;
+    }
+    
+    .ainur_title h1{
+        color: rgba(4, 52, 128, 1);
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        font-size: 28px;
+        line-height: 46,36px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+    }
+    
+    .ainur_title p{
+        color: rgba(4, 52, 128, 1);
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Montserrat';
+        line-height: 30px;
+        width:100%;
+        margin-top: 50px;
+    }
+
+    
+    .ainur_right{
+        width: 100%;
+    }
+
+    
+    .ainur_bubble_right{
+        width: 100%;
+    }
+
+    
+.blue_back{
+    background:rgba(137, 205, 234, 1);
+    border-radius: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 544px;
+}
+
+.card{
+    width:100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:414px) {
+    .slide_inline div{
+        width: 80px;
+        height: 78px;
+        margin: 0 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:375px) {
+    
+.blue_back{
+    background:rgba(137, 205, 234, 1);
+    border-radius: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 494px;
+}
+
+.card{
+    width:100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+    .ainur_title h1{
+        color: rgba(4, 52, 128, 1);
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        font-size: 25px;
+        line-height: 46,36px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+    }
+    .ainur_right h2{
+        font-size: 18px;
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        line-height: 35px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: rgba(4, 52, 128, 1);
+    }
+    .ainur_bubble_right div h1{
+        color: rgba(4, 52, 128, 1);
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        letter-spacing: 0.2em;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    
+}
+
+
+@media  (max-width:354px) {
+    .slide_inline div{
+        width: 80px;
+        height: 78px;
+        margin: 0 5px;
+    }
+    .block{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .ainur_title h1{
+        color: rgba(4, 52, 128, 1);
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        font-size: 20px;
+        line-height: 46,36px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+    }
+}
+
+
+
+
+@media  (max-width:341px) {
+    
+}
+
+
+
+
+@media  (max-width:320px) {
+    
+.ainur_title{
+    padding-top: 100px;
+}
+
+    .ainur_title h1{
+        color: rgba(4, 52, 128, 1);
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        font-size: 20px;
+        line-height: 46,36px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+    }
+
+    .ainur_right h2{
+        font-size: 16px;
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        line-height: 35px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: rgba(4, 52, 128, 1);
+    }
+    
+    .ainur_right p{
+       
+        color: rgba(4, 52, 128, 1);
+        font-size: 10px;
+        line-height: 22px;
+        font-weight: 400;
+        font-family: 'Montserrat';
+    
+    }
+
+    .ainur_bubble_right div h1{
+        color: rgba(4, 52, 128, 1);
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        letter-spacing: 0.2em;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    
+    .ainur_bubble_right div p{
+        color: rgba(4, 52, 128, 1);
+        font-size: 10px;
+        line-height:22px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        margin-top: 30px;
+    }
+
+    .blue_back{
+        background:rgba(137, 205, 234, 1);
+        border-radius: 120px;
+        width: 288px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 424px;
+    }
+    
+    .card{
+        width:288px !important;
+        object-fit: cover;
+        height: 100%;
+    }
+    .block{
+        background-position: center;
+        background-size: cover;
+        width: 50px;
+        background-repeat: no-repeat;
+        height: 70px !important;
+    }
+
+    .slide_inline div{
+        width: 70px !important  ;
+        height: 78px;
+        margin: 0 3px;
+    }
+    
+    
+    
+    
+}

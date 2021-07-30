@@ -1,0 +1,249 @@
+@import url('../../assets/fonts/stylesheet.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+body{
+    margin: 0;
+}
+
+footer{
+    background: #043480;
+    padding: 20px 0;
+}
+.footer_form button{
+    background: none !important;
+    width: 0;
+    height: 0;
+    margin: 0;
+    cursor: pointer;
+    padding: 0;
+    transform: translateX(-10px);
+}
+.footer_banner{
+    width: 80%;
+    margin: auto;
+}
+
+.footer_logo img{
+    width: 100px;
+    height: 94px;
+}
+.footer_logo{
+    padding-top: 45px;
+}
+.footer_right{
+    padding-top: 32px;
+    display: flex;
+}
+.footer_right ul{
+    list-style: none;
+}
+.footer_right ul a{
+    text-decoration: none;
+}
+.footer_right ul h3{
+    font-weight: 900;
+    font-size: 14px;
+    font-family: 'TT Hazelnuts';
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+}
+.footer_right ul .footer_step{
+    transform: translateY(20px);
+}
+.footer_right ul li a{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    color: white;
+    text-decoration: none;
+    line-height: 250%;
+}
+
+.unact  li {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    color: white;
+    text-decoration: none;
+    line-height: 250%;
+}
+
+.footer_form{
+    margin-top: 45px;
+}
+.footer_inline{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer_form div input{
+    width: 378px;
+    background: none;
+    border:0;
+    font-weight: 300;
+    outline: 0;
+    padding: 15px 0 ;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    color: white ;
+    border-bottom: 1px solid white;
+
+}
+
+.footer_form i{
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    top: 19px;
+    transform: translateX(-15px);
+}
+.footer_form div{
+    position: relative;
+
+}
+.footer_form div::before{
+    content: 'подписаться на новости и акции компании';
+    position: absolute;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Montserrat';
+    bottom: -25px;
+    color: white;
+    left: 0;
+}
+
+
+
+::-webkit-input-placeholder {color: white; }
+
+.footer_social{
+    margin-top: 180px;
+}
+
+.footer_social h1{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-style: normal;
+}
+
+.footer_addres{
+    margin-top: 40px;
+}
+
+.footer_addres p{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Montserrat';
+}
+
+.footer_addres h1{
+    font-weight: 700;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+.footer_social img{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+@media  (max-width:768px) {
+    .footer_banner{
+        width: 90%;
+    }
+    .footer_form{
+        position: absolute;
+        top:10px;
+        right: 30px;
+    }
+    .footer_form div input{
+        width:100%;
+    }
+    .footer_logo img{
+        width: 67px;
+        height: 63px;
+    }
+    .footer_form{
+        width: 65%;
+    }
+    .footer_social{
+        margin-top:60px;
+    }
+    .footer_social h1{
+        font-size: 12px;
+    }
+    .footer_addres h1{
+        font-size: 12px;
+    }
+    .footer_addres{
+        margin-top: 160px;
+    }
+    .footer_addres p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    footer{
+        position: relative;
+    }
+
+    .footer_right ul:nth-child(1){
+        padding-left: 0;
+    }
+    
+
+    /* footer right */
+
+    .footer_right ul h3{
+        font-size: 12px;
+    }
+
+    .footer_right ul li a{
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
+
+
+
+
+
+
+/* MOBILE */
+
+
+@media  (max-width:495px) {
+    .footer_form{
+        position: unset;
+    }
+    .footer_logo{
+        display: flex;
+        justify-content: center;
+    }
+    .footer_form {
+        width: 100%;
+    }
+    .footer_form div input{
+        width: 100%;
+    }
+    .footer_addres{
+        margin-top: 30px;
+    }
+    .footer_inline div{
+        width: 100%;
+    }
+    .footer_right{
+        display: none;
+    }
+    .footer_social{
+        margin-top: 100px;
+    }
+}

@@ -1,0 +1,430 @@
+@import url('../../assets/fonts/stylesheet.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+
+.aknur_banner{
+    width: 82%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.cardNur{
+    width: 300px;
+    height: 400px;
+    background: #89CDEA;
+    border-radius: 110px;
+}
+.slide_inlines .first{
+    width: 90px;
+    height: 90px;
+    background-repeat:no-repeat ;
+}
+
+.aknur_title{
+    padding-top: 200px;
+}
+
+.aknur_title h1{
+    color: rgba(4, 52, 128, 1);
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    font-size: 38px;
+    line-height: 46,36px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.aknur_title p{
+    color: rgba(4, 52, 128, 1);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    line-height: 30px;
+    width: 65%;
+    margin-top: 50px;
+}
+
+
+.aknur_content_inline{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aknur_content_inline2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aknur_right {
+    width: 50%;
+    
+}
+
+.aknur_right h2{
+    font-size: 22px;
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    line-height: 35px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(4, 52, 128, 1);
+}
+
+.aknur_right p{
+    color: rgba(4, 52, 128, 1);
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+
+}
+.aknur_right div{
+    margin: 50px 0px;
+}
+
+
+
+/*  */
+
+
+
+.aknur_inline_bubble{
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.aknur_bubble_right{
+    width: 50%;
+}
+
+.aknur_bubble_left{
+    position: relative;
+    width: 45%;
+}
+
+.aknur_bubble_left img{
+    position: absolute;
+}
+
+
+.bubble_ones{
+    width: 40px;
+    right: 200px;
+    animation: trim 3s linear infinite;
+}
+
+.bubble_twos{
+    width: 70px;
+    right: 150px;
+    animation: trim 3s linear infinite;
+    top: 30px;
+}
+
+.bubble_threes{
+    width: 90px;
+    top: 90px;
+    animation: trim 3s linear infinite;
+    right: 180px;
+}
+
+
+.bubble_fours{
+    width: 60px;
+    animation: trim 3s linear infinite;
+    right:300px;
+    bottom: -60px;
+}
+
+@keyframes trim {
+    0%{
+        transform: translateY(0%);
+    }50%{
+        transform: translateY(5%);
+    }
+}
+.aknur_bubble_right div h1{
+    color: rgba(4, 52, 128, 1);
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    letter-spacing: 0.2em;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.aknur_bubble_right div p{
+    color: rgba(4, 52, 128, 1);
+    font-size: 18px;
+    line-height:30px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    margin-top: 30px;
+}
+.cards{
+    background-position: center;
+    background-size: cover;
+    width: 442px;
+    height: 652px;
+}
+
+.slide_inlines div{
+    width: 80px;
+    height: 78px;
+    margin: 0 5px;
+}
+
+
+.slide_inlines{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+
+.first{
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1024px) {
+    .aknur_content_inline{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .aknur_left{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aknur_right{
+        width: 70%;
+    }
+    .aknur_content_inline2{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    
+    .aknur_inline_bubble{
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .aknur_bubble_right{
+        width: 100%;
+        margin-top: 100px;
+    }
+
+   .aknur_bubble_left{
+       width: 100%;
+   }
+
+   .bubble_ones{
+       left: 650px;
+       top: -240px;
+   }
+
+   .bubble_twos{
+       left: 700px;
+       top: -200px !important;
+   }
+
+   .bubble_threes{
+       left: 600px;
+       top: -110px !important;
+   }
+   .bubble_fours{
+       left: 500px;
+   }
+}
+
+
+
+
+
+@media  (max-width:817px) {
+    .bubble_ones{
+        left: 550px;
+        top: -240px;
+    }
+ 
+    .bubble_twos{
+        left: 600px;
+        top: -200px !important;
+    }
+ 
+    .bubble_threes{
+        left: 550px !important;
+        top: -110px !important;
+    }
+    .bubble_fours{
+        left: 400px;
+    }   
+}
+
+
+
+
+
+
+@media (max-width:600px) {
+    
+    .aknur_left .cards{
+        width: 450px !important;
+        height:705px !important;
+    }
+
+    
+.aknur_banner{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:414px) {
+    .aknur_title{
+        padding-top: 140px;
+    }
+    .aknur_left .cards{
+        width: 100% !important;
+        height: 550px !important;
+    }
+    
+    .aknur_right {
+        width: 100%;
+        
+    }
+
+    
+    .aknur_title h1{
+        color: rgba(4, 52, 128, 1);
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        font-size: 20px;
+        line-height: 46,36px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+    }
+
+    .aknur_title p{
+        color: rgba(4, 52, 128, 1);
+        font-size: 10px;
+        font-weight: 400;
+        font-family: 'Montserrat';
+        line-height: 22px;
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+
+@media  (max-width:375px) {
+    .aknur_left .cards{
+        width: 100% !important;
+        height: 500px !important;
+    } 
+    .slide_inlines .first {
+        width: 84px;
+        height: 88px;
+        margin: 0 3px;
+    }   
+    .aknur_bubble_right div h1{
+        color: rgba(4, 52, 128, 1);
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        letter-spacing: 0.2em;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .aknur_inline_bubble{
+        display: flex;
+        margin-top: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+@media  (max-width:320px) {
+    
+.aknur_right h2{
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    line-height: 35px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(4, 52, 128, 1);
+}
+
+    .aknur_banner{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    .aknur_left .cards{
+        width: 100% !important;
+        height: 430px !important;
+    }
+
+    .slide_inlines .first {
+        width: 65px;
+        height: 60px;
+        margin: 0 5px;
+    }
+}

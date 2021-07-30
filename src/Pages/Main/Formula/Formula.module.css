@@ -1,0 +1,1775 @@
+@import url('../../../assets/fonts/stylesheet.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+html button{
+    cursor: pointer;
+}
+body{
+    overflow-x: hidden;
+}
+.formula_banner{
+    width: 90%;
+    margin:auto;
+    position: relative;
+    margin-top: 180px;
+}
+
+.formula_inline{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    align-items: center;
+}
+
+.formula_left{
+    width: 30%;
+}
+.formula_left_circle{
+    background: url('../../../assets/Main/Formula/blueCircle.png') center / cover;
+    width: 430px;
+    height: 430px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    position: relative;
+}
+
+
+
+@keyframes  rotate {
+    0%{
+        transform: rotate(0%);
+    }100%{
+        transform: rotate(360deg);
+    }
+}
+.formula_left_circle img:nth-child(1){
+    position: absolute;
+    width: 85%;
+    animation: rotate linear 15s infinite;
+}
+.formula_left_circle img:nth-child(2){
+    position: absolute;
+    width: 50%;
+}
+
+
+
+
+/* FORMULA RIGHT */
+.formula_right{
+    width: 50%;
+}
+
+.formula_right_text h1{
+    font-size: 52px;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    line-height: 70px;
+    font-family: 'TT Hazelnuts';
+    color: #043480;
+    transform: translateY(-40px);
+    width: 85%;
+}
+
+.formula_right_text p{
+    color: #043480;
+    font-size: 28px;
+    width: 110%;
+    font-weight: normal;
+    font-family: 'Montserrat';
+    line-height: 50px;
+}
+
+.formula_bubble{
+    position:relative;
+}
+.formula_bubble img{
+    position: absolute;
+    animation: trans infinite 3s linear;
+}
+@keyframes trans {
+    0%{
+        transform: translateY(0%);
+    }50%{
+        transform: translateY(10%);
+    }
+}
+
+.bubble_one{
+    right: -250px;
+    top: -150px;
+}
+
+.bubble_two{
+    right: -150px;
+    width: 75px;
+}
+
+.bubble_three{
+    top: 180px;
+    width: 180px;
+}
+
+.bubble_four{
+    top:320px;
+    right: 25px;
+}
+
+
+
+
+
+
+.our_product{
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+
+
+.our_product h1{
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    font-size: 38px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #043480;
+}
+
+
+.slider{
+    background: linear-gradient(180deg, #FFFFFF 0%, #85CBE9 100%);
+    width: 100%;
+    height: 950px;
+    margin-bottom: 0px;
+    position: relative;
+    overflow:hidden;
+    display: grid;
+}
+
+
+.product_card{
+    background: #89CDEA;
+    border-radius: 120px;
+    width: 300px;
+    height:439px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+}
+
+.product_card:hover{
+    transform: translateY(5px);
+}
+
+.slide_track .product_card:nth-child(1){
+    transform: translateY(-73px);
+    background: #D474AB;
+}
+
+.slide_track .product_card:nth-child(1) .product_card_abs button{
+    background: #D474AB;
+}
+
+.slide_track .product_card:nth-child(3){
+    transform: translateY(-73px);
+    background: #D474AB;
+}
+
+.slide_track .product_card:nth-child(3) .product_card_abs button{
+    background: #D474AB;
+}
+
+.slide_track .product_card:nth-child(5){
+    transform: translateY(-73px);
+    background: #AA97D8;
+}
+
+.slide_track .product_card:nth-child(5) .product_card_abs button{
+    background: #AA97D8;
+}
+.slide_track .product_card:nth-child(7){
+    transform: translateY(-73px);
+    background: #D474AB;
+}
+
+.slide_track .product_card:nth-child(7) .product_card_abs button{
+    background: #D474AB;
+}
+.slide_track .product_card:nth-child(9){
+    transform: translateY(-73px);
+    background: #62B08F;
+}
+
+.slide_track .product_card:nth-child(9) .product_card_abs button{
+    background: #62B08F;
+}
+
+.slide_track .product_card:nth-child(10){
+    transform: translateY(-73px);
+    background: #D474AB;
+}
+
+.slide_track .product_card:nth-child(10) .product_card_abs button{
+    background: #D474AB;
+}
+.slide_track .product_card:nth-child(12){
+    transform: translateY(-73px);
+    background: #D474AB;
+}
+
+.slide_track .product_card:nth-child(12) .product_card_abs button{
+    background: #D474AB;
+}
+.slide_track:hover{
+    animation-play-state: paused;
+}
+
+.slide_track{
+    margin-top: 150px;
+    display: flex;
+    width: calc(250px * 25.5);
+    justify-content: space-evenly;
+    animation: scroll 19s linear infinite;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }100%{
+        transform: translateX(calc(-250px * 13.4 ));
+    }
+}
+
+
+.product_card img{
+    width: 80%;
+}
+
+
+
+.product_card_abs{
+    position: absolute;
+    bottom: -130px;
+    left: 0;
+}
+
+.product_card_abs h1{
+    color: #043480;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    font-family: 'TT Hazelnuts';
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.product_card_abs p{
+    color: #043480;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+.product_card_abs button{
+    width: 209px;
+    cursor: pointer;
+    height: 79px;
+    border-radius: 200px;
+    background:#89CDEA;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size:18px;
+    font-family: 'TT Hazelnuts';
+    border:0;
+    transform: translateY(20px);
+}
+
+
+
+
+
+
+.darkblue_banner{
+    background: #043480;
+    padding:50px 0;
+    height:500px;
+    width: 100%;
+    transform: translateY(0px);
+    z-index: 0;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.darkblue_banner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: -150px;
+    background: url('../../../assets/Main/BlueSlider/Vector.png') center / cover;
+}
+
+.dark_left img{
+    width: 100px;
+}
+.darkblue_inline{
+    align-items: center;
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.dark_left{
+    width: 45%;
+    transform: translateY(0px);
+    text-align: center;
+    position: relative;
+}
+
+.dark_right{
+    width: 40%;
+    text-align: center;
+    position: relative;
+}
+
+
+.darkblue_inline div h2{
+    color: white;
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    font-size: 22px;
+    letter-spacing: 0.2em;
+    line-height: 35px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.darkblue_inline div{
+    height: 200px;
+}
+
+.darkblue_inline div p{
+    color: white;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+.slide_block{
+    position: relative;
+    text-align: center;
+    margin-top: 70px;
+    transform: translateY(180px);
+}
+
+
+.slide_block img {
+    margin:0 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.order_left p{
+    color: #043480;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    width: 80%;
+}
+
+.order_left{
+    width: 70%;
+}
+.order_title{
+    width: 80%;
+    margin: auto;
+}
+.order_title h1{
+    text-transform: uppercase;
+    color: #043480;
+    font-size: 38px;
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    letter-spacing: 0.2em;
+
+}
+
+
+.order_inline{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.order_left button{
+    width: 209px;
+    height: 75px;
+    border-radius: 110px;
+    background:rgba(137, 205, 234, 1);
+    border:0;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    letter-spacing: 0.2em;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.order_left button:hover{
+    background: #043480;
+}
+
+.order_right{
+    width: 40%;
+    transform: translateY(-50px);
+}
+
+.circle_blue{
+    background:url('../../../assets/Main/BlueSlider/back_blue.png') center / cover;
+    width: 269px;
+    height: 269px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle_blue img{
+    position: absolute;
+    width: 100%;
+}
+
+.circle_blue img:nth-child(1){
+    animation: rotate 15s linear infinite;
+    width: 90%;
+}
+
+@keyframes  rotate {
+    0%{
+        transform: rotate(0deg);
+    }100%{
+        transform: rotate(360deg);
+    }
+}
+
+.circle_blue img:nth-child(2){
+    width: 70%;
+}
+
+
+
+
+
+.interest h1{
+    text-align: center;
+    margin-top: 70px;
+    transform: translatex(80px);
+    color: #043480;
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-family: 'TT Hazelnuts';
+}
+
+
+.interest{
+    overflow-x: hidden;
+
+}
+
+
+
+
+
+/*  */
+
+
+.slider_banner{
+    width: 100%;
+    margin: auto;
+    height: 700px;
+    margin-bottom: 0px;
+    position: relative;
+    overflow:hidden;
+    display: grid;
+}
+
+.slider_inline{
+    margin-top: 150px;
+    display: flex;
+    width: calc(250px * 18.3);
+    justify-content: space-evenly;
+    animation: scroll2 20s linear infinite;
+}
+
+
+.slider_inline:hover{
+    animation-play-state: paused;
+}
+
+@keyframes scroll2 {
+    0%{
+        transform: translateX(0);
+    }100%{
+        transform: translateX(calc(-250px * 9 ));
+    }
+}
+
+.article_card img{
+    width: 306px;
+    height: 306px;
+}
+
+.article_card h1{
+    color: #043480;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    width: 88%;
+}
+
+.article_card a{
+    color: rgba(137, 205, 234, 1);
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    text-decoration: none;
+}
+.article_card{
+    width: 306px;
+}
+
+
+.article_card:nth-child(2){
+    transform: translateY(-50px);
+}
+
+.article_card:nth-child(4){
+    transform: translateY(-50px);
+}
+
+.article_card:nth-child(6){
+    transform: translateY(-50px);
+}
+
+.article_card:nth-child(8){
+    transform: translateY(-50px);
+}
+
+.article_card:nth-child(10){
+    transform: translateY(-50px);
+}
+
+
+.article_card:nth-child(12){
+    transform: translateY(-50px);
+}
+
+
+
+.cardHeight{
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:1446px) {
+    .formula_banner{
+        margin-top: 70px;
+    }
+    
+    .formula_left_circle{
+        background: url('../../../assets/Main/Formula/blueCircle.png') center / cover;
+        width: 280px;
+        height: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+
+    
+.formula_right_text h1{
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    line-height: 46px;
+    font-family: 'TT Hazelnuts';
+    color: #043480;
+    transform: translateY(-40px);
+    width: 95%;
+}
+
+.formula_right_text p{
+    color: #043480;
+    font-size: 18px;
+    width: 110%;
+    font-weight: normal;
+    font-family: 'Montserrat';
+    line-height: 30px;
+}
+    
+
+
+.bubble_one{
+    right: -150px;
+    top: -90px;
+    width: 90px;
+}
+
+.bubble_two{
+    right: -80px;
+    width: 55px;
+}
+
+.bubble_three{
+    top: 140px;
+    width: 100px;
+}
+
+.bubble_four{
+    top:250px;
+    right: -10px;
+    width: 80px;
+}
+.darkblue_banner{
+    background: #043480;
+    height:500px;
+    width: 100%;
+    transform: translateY(0px);
+    z-index: 0;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.darkblue_banner .vector{
+    width: 100%;
+    position: absolute;
+    top: -450px;
+}
+}
+
+
+
+
+
+
+
+
+@media  only screen and (max-width:1200px) {
+    
+.formula_right_text h1{
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-family: 'TT Hazelnuts';
+    color: #043480;
+    transform: translateY(-40px);
+    width: 85%;
+}
+
+.formula_right_text p{
+    color: #043480;
+    font-size: 18px;
+    width: 110%;
+    font-weight: normal;
+    font-family: 'Montserrat';
+    line-height: 30px;
+}
+.formula_banner{
+    width: 90%;
+    margin:auto;
+    position: relative;
+    margin-top: 80px;
+}
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:1100px){
+    .formula_right_text h1{
+        font-size: 32px;
+        font-weight: 900;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        line-height: 40px;
+        font-family: 'TT Hazelnuts';
+        color: #043480;
+        transform: translateY(-40px);
+        width: 100%;
+    }
+    .formula_left_circle{
+        background: url('../../../assets/Main/Formula/blueCircle.png') center / cover;
+        width: 230px;
+        height: 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+}
+
+
+
+
+
+
+@media  only screen and (max-width:1024px) {
+
+    .bubble_one{
+        right: -130px;
+        top: -90px;
+        width: 90px;
+    }
+    .circle_blue img:nth-child(1){
+        animation:unset;
+    }
+    .formula_left_circle img:nth-child(1){
+    position: absolute;
+    width: 90%;
+    animation:unset;
+}
+    .bubble_two{
+        right: -80px;
+        width: 55px;
+    }
+    
+    .bubble_three{
+        top: 140px;
+        width: 100px;
+    }
+    
+    .bubble_four{
+        top:250px;
+        right: -10px;
+        width: 80px;
+    }
+    .order_title h1{
+        text-transform: uppercase;
+        color: #043480;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        letter-spacing: 0.2em;
+    
+    }
+
+    .interest h1{
+        font-size: 25px;
+    }
+        
+    .formula_right_text h1{
+        font-size: 25px;
+        font-weight: 900;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        line-height: 40px;
+        font-family: 'TT Hazelnuts';
+        color: #043480;
+        transform: translateY(-40px);
+        width: 100%;
+    }
+    .our_product h1{
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        font-size: 25px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #043480;
+    }
+    .circle_blue{
+        background:url('../../../assets/Main/BlueSlider/back_blue.png') center / cover;
+        width: 230px;
+        height: 230px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .darkblue_banner .vector{
+        width: 100%;
+        position: absolute;
+        top: -300px;
+    }
+
+    .darkblue_inline div h2{
+        color: white;
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        font-size: 18px;
+        letter-spacing: 0.2em;
+        line-height: 35px;
+        text-transform: uppercase;
+    }
+    
+    .darkblue_inline div p{
+        color: white;
+        font-weight: 400;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        line-height: 22px;
+    
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+/* TABLET */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:768px) {
+    .darkblue_inline{
+        align-items: center;
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+    .dark_left{
+        width: 40%;
+        transform: translateY(0px);
+        text-align: center;
+        position: relative;
+    }
+    
+    .dark_right{
+        width: 50%;
+        text-align: center;
+        position: relative;
+    }
+    .formula_banner{
+        margin-top: 200px;
+    }
+    .formula_bubble img{
+        position: absolute;
+        animation: unset;
+    }
+    
+    .formula_left_circle{
+        background: url('../../../assets/Main/Formula/blueCircle.png') center / cover;
+        width: 140px;
+        height: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .formula_right{
+        position: relative;
+    }
+        
+    .formula_right_text h1{
+        font-size: 28px;
+        font-weight: 900;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        line-height: 36px;
+        font-family: 'TT Hazelnuts';
+        color: #043480;
+        transform: translateY(-40px);
+        width: 80%;
+        position: absolute;
+        top: -100px;
+    }
+
+    .formula_right_text p{
+        color: #043480;
+        font-size: 14px;
+        width: 95%;
+        font-weight: normal;
+        font-family: 'Montserrat';
+        line-height: 26px;
+    }
+    
+    .formula_left{
+        width: 30%;
+    }
+    .formula_inline{
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        width: 100%;
+        align-items: center;
+    }
+    .formula_right{
+        width: 90%;
+    }
+
+    
+    .bubble_one{
+        right: -10px;
+        top: -320px;
+        animation: unset;
+        width: 120px;
+    }
+
+    .bubble_two{
+        right: 100px;
+        width: 85px;
+        top: -190px;
+    }
+
+ 
+    
+    .bubble_three{
+        top: -280px;
+        width: 100px;
+        right:550px;
+    }
+
+    .bubble_four{
+        top:-210px;
+        right: 650px;
+        width: 50px;
+    }
+    
+    .order_left p{
+        color: #043480;
+        font-size: 14px;
+        line-height: 30px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        width: 80%;
+    }
+
+    .order_left{
+        width: 100%;
+    }
+    .order_title{
+        width: 80%;
+        margin: auto;
+    }
+    .order_title h1{
+        text-transform: uppercase;
+        color: #043480;
+        font-size: 28px;
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        letter-spacing: 0.2em;
+
+    }
+
+
+    .order_inline{
+        width: 80%;
+        margin: auto;
+        margin-top: 80px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+.order_left button{
+    width: 209px;
+    height: 75px;
+    border-radius: 110px;
+    background:rgba(137, 205, 234, 1);
+    border:0;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    letter-spacing: 0.2em;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+    .order_right{
+        width: 30%;
+        transform: translateY(-50px);
+    }
+    
+.circle_blue{
+    background:url('../../../assets/Main/BlueSlider/back_blue.png') center / cover;
+    width: 133px;
+    height: 133px;
+    object-fit: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle_blue img{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.circle_blue img:nth-child(1){
+    animation: unset;
+}
+
+@keyframes  rotate {
+    0%{
+        transform: rotate(0deg);
+    }100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+.interest h1{
+    text-align: center;
+    margin-top: 70px;
+    transform: translatex(0px);
+    color: #043480;
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'TT Hazelnuts';
+}
+
+.article_card img{
+    width: 326px;
+    height: 326px;
+}
+
+.article_card h1{
+    color: #043480;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    width: 88%;
+}
+
+.article_card a{
+    color: rgba(137, 205, 234, 1);
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    text-decoration: none;
+}
+.article_card{
+    width: 306px;
+}
+
+.darkblue_banner::before{
+    content: '';
+    top: -200px;
+}
+}
+
+
+
+
+
+
+
+
+
+@media  (max-width:495px) {
+    .formula_right_text h1{
+        font-size: 20px;
+        font-weight: 900;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        line-height: 36px;
+        font-family: 'TT Hazelnuts';
+        color: #043480;
+        transform: translateY(-40px);
+        width: 100%;
+        position: absolute;
+        top: -250px;
+        left: 0;
+    }
+    .formula_inline{
+        display: flex;
+        justify-content: unset;
+        position: relative;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .formula_banner{
+        width: 95%;
+        margin:auto;
+        position: relative;
+        margin-bottom: 500px;
+        margin-top: 180px;
+    }
+    .formula_left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .formula_left_circle{
+        background: url('../../../assets/Main/Formula/blueCircle.png') center / cover;
+        width: 140px;
+        height: 140px;
+        transform: translateY(-40px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+
+    .formula_right_text p{
+        color: #043480;
+        font-size: 10px;
+        width: 95%;
+        font-weight: normal;
+        font-family: 'Montserrat';
+        line-height: 22px;
+    }
+
+
+        
+    .bubble_one{
+        right:50px;
+        top: -320px;
+        width: 80px;
+    }
+
+    .bubble_two{
+        right: 160px;
+        width: 45px;
+        top: -270px;
+    }
+    
+    
+    .bubble_three{
+        top: -260px;
+        width: 80px;
+        right:-180px;
+    }
+
+    .bubble_four{
+        top:-190px;
+        right: -120px;
+        width: 50px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media  (max-width:495px) {
+    .formula_banner{
+        width: 95%;
+        margin:auto;
+        position: relative;
+        margin-bottom: 0px;
+        margin-top: 180px;
+    }
+    
+    .darkblue_banner{
+        background: #043480;
+        height:500px;
+        width: 100%;
+        transform: translateY(-150px);
+        z-index: 0;
+        position: relative;
+        margin-bottom: 0px;
+    }
+
+    .darkblue_banner .vector{
+        width: 100%;
+        position: absolute;
+        top: -150px;
+    }
+    .dark_right{
+        display: none;
+    }
+    .dark_left{
+        width: 100%;
+    }
+    .order_left p{
+        color: #043480;
+        font-size: 10px;
+        line-height: 20px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        width: 100%;
+    }
+
+    .order_left{
+        width: 100%;
+    }
+    
+    .order_title h1{
+        text-transform: uppercase;
+        color: #043480;
+        font-size: 20px;
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        letter-spacing: 0.2em;
+
+    }
+    .order_title   {
+        width: 90%;
+        margin-top: 0;
+    }
+
+    .order_inline{
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+
+    .order_left button{
+        width: 100%;
+        height: 75px;
+        border-radius: 110px;
+        background:rgba(137, 205, 234, 1);
+        border:0;
+        color: white;
+        font-size: 16px;
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        letter-spacing: 0.2em;
+        margin-top: 50px;
+        text-transform: uppercase;
+    }
+
+    .order_right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        transform: translateY(-20px);
+    }
+    
+.circle_blue{
+    background:url('../../../assets/Main/BlueSlider/back_blue.png') center / cover;
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle_blue img{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+
+}
+.interest h1{
+    text-align: left;
+    margin-top: 70px;
+    transform: translatex(30px);
+    color: #043480;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-family: 'TT Hazelnuts';
+}
+
+}
+
+
+
+
+
+
+
+
+@media  (max-width:414px) {
+  
+    .darkblue_banner{
+        background: #043480;
+        height:500px;
+        width: 100%;
+        transform: translateY(0px);
+        z-index: 0;
+        position: relative;
+        margin-top: 0px;
+    }
+    .center_slide{
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+        height:100%;
+        width: 100%;
+        margin: auto;
+        transform: translatex(60px);
+    }
+    .slide_banner{
+        margin-top: 50px;
+        transform: translatex(0px);
+        width: 100%;
+        overflow-x: hidden;
+        margin-bottom: 70px;
+    }
+    .slider{
+        background: linear-gradient(180deg, #FFFFFF 0%, #85CBE9 100%);
+        width: 100%;
+        height: 750px;
+        margin-bottom: 0px;
+        position: relative;
+        overflow:hidden;
+        display: grid;
+    }
+    
+    .darkblue_banner{
+        margin-bottom: 0 !important;
+    }
+    
+    .article_card{
+        transform: translatex(43px);
+
+    }
+    .order_world{
+        margin-top: 100px;
+    }
+    .our_product {
+        width: 90%;
+    }
+    .center_slide .product_card .product_card_abs{
+        width: 100%;
+    }
+    .center_slide .product_card button{
+        width: 100%;
+    }
+    .formula_right_text h1{
+        font-size: 20px;
+        font-weight: 900;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        line-height: 24px;
+        font-family: 'TT Hazelnuts';
+        color: #043480;
+        transform: translateY(-40px);
+        width: 100%;
+    }
+
+    .formula_left_circle{
+        width:170px;
+        height: 170px;
+        
+    }
+    .bubble_one{
+        right:50px;
+        top: -400px;
+        width: 80px;
+    }
+  
+
+    .bubble_two{
+        right: 140px;
+        width: 45px;
+        top: -300px;
+    }
+    
+    
+    .bubble_three{
+        top: -290px;
+        width: 80px;
+        right:-180px;
+    }
+
+    .bubble_four{
+        top:-220px;
+        right: -120px;
+        width: 50px;
+    }
+    .our_product{
+        width: 80%;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    
+    
+    .our_product h1{
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        font-size: 20px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #043480;
+    }
+
+ 
+
+
+    .swiper2 .product_card{
+        background: rgba(212, 116, 171, 1)  ;
+    }
+    
+
+
+
+.swiper2    .product_card_abs button{
+    background:rgba(212, 116, 171, 1);
+}
+
+.swiper4 .product_card{
+    background:rgba(170, 151, 216, 1);
+}
+
+
+
+
+.swiper4 .product_card_abs button{
+    background:rgba(170, 151, 216, 1);
+
+}
+
+.swiper6 .product_card{
+    background:rgba(212, 116, 171, 1);
+
+}
+
+
+
+.swiper6 .product_card_abs button{
+    background:rgba(212, 116, 171, 1);
+
+
+}
+.swiper9 .product_card{
+    background:rgba(212, 116, 171, 1);
+
+}
+
+
+
+.swiper9 .product_card_abs button{
+    background:rgba(212, 116, 171, 1);
+
+
+}
+
+.swiper8 .product_card{
+    background: rgba(98, 176, 143, 1);
+
+}
+
+
+
+
+.swiper8 .product_card_abs button{
+    background: rgba(98, 176, 143, 1);
+
+
+
+}
+
+.product_card:nth-child(10){
+    transform: translateY(-80px);
+    background:rgba(212, 116, 171, 1);
+}
+
+
+.product_card:nth-child(10):hover{
+    transform: translateY(-73px);
+}
+
+
+
+.product_card:nth-child(10) .product_card_abs button{
+    background:rgba(212, 116, 171, 1);
+}
+.product_card:nth-child(12){
+    transform: translateY(-80px);
+    background:rgba(170, 151, 216, 1);
+}
+
+.product_card:nth-child(12):hover{
+    transform: translateY(-73px);
+}
+
+.product_card:nth-child(12) .product_card_abs button{
+    background:rgba(170, 151, 216, 1);
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:375px) {
+    .formula_inline{
+        margin-top: 100px;
+    }       
+    .bubble_one{
+        right:50px;
+        top: -400px;
+        width: 80px;
+    }
+  
+
+    .bubble_two{
+        right: 120px;
+        width: 45px;
+        top: -300px;
+    }
+    
+    
+    .bubble_three{
+        top: -290px;
+        width: 80px;
+        right:-180px;
+    }
+
+    .bubble_four{
+        top:-220px;
+        right: -120px;
+        width: 50px;
+    }
+    .article_card{
+        transform: translatex(24px);
+
+    }
+    .center_slide{
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+        height:100%;
+        width: 100%;
+        margin: auto;
+        transform: translatex(38px);
+    }
+}
+
+
+
+
+@media (max-width:360px) {
+    .center_slide{
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+        height:100%;
+        width: 100%;
+        margin: auto;
+        transform: translatex(33px);
+    }
+    .our_product h1{
+        font-size: 23px;
+    }
+    .article_card{
+        transform: translatex(18px);
+
+    }
+}
+
+
+
+
+
+
+
+
+@media  (max-width:320px) {
+    .formula_right_text h1{
+        font-size: 20px;
+        font-weight: 900;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        line-height: 36px;
+        font-family: 'TT Hazelnuts';
+        color: #043480;
+        transform: translateY(-40px);
+        width: 100%;
+        position: absolute;
+        top: -250px;
+        left: 0;
+    }
+
+            
+    .bubble_one{
+        right:50px;
+        top: -430px;
+        width: 60px;
+    }
+
+    .bubble_two{
+        right: 100px;
+        width: 45px;
+        top: -370px;
+    }
+
+    .bubble_three{
+        top: -280px;
+        width: 40px;
+        right:-100px;
+    }
+
+    .bubble_four{
+        top:-350px;
+        right: -155px;
+        width: 70px;
+    }
+        .formula_right_text p{
+        color: #043480;
+        font-size: 10px;
+        width: 100%;
+        font-weight: normal;
+        font-family: 'Montserrat';
+        line-height: 22px;
+    }
+
+    .formula_right_text{
+        margin-top: 40px;
+    }
+
+
+    
+    .formula_left_circle{
+        background: url('../../../assets/Main/Formula/blueCircle.png') center / cover;
+        width: 140px;
+        height: 140px;
+        transform: translateY(-30px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+
+    .our_product h1{
+        font-size: 19px;
+    }
+    .article_card{
+        transform: translatex(7px);
+        
+    }
+
+    .article_card img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .center_slide{
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+        height:100%;
+        width: 100%;
+        margin: auto;
+        transform: translatex(10px);
+    }
+}
+
+

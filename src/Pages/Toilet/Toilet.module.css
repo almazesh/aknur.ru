@@ -1,0 +1,327 @@
+@import url('../../assets/fonts/stylesheet.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+
+
+.toilet_banner{
+    width: 82.4%;
+    margin: auto;
+    margin-bottom: 200px;
+}
+
+
+
+.toilet_title{
+    padding-top: 200px;
+}
+
+.toilet_title h1{
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 46px;
+    letter-spacing: 0.2em;
+    font-family: 'TT Hazelnuts';
+    text-transform: uppercase;
+    color: #043480;
+}
+
+
+.toilet_title p{
+    color: #043480;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    width: 65%;
+    margin-top: 50px;
+}
+
+.toilet_content_inline{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.toilet_content_right div{
+    margin: 50px 0;
+}
+
+
+
+
+.toilet_content_right{
+    width: 50%;
+}
+
+.toilet_content_right h2{
+    color: #043480;
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: 0.2em;
+    line-height: 35px;
+    font-family: 'TT Hazelnuts';
+    text-transform: uppercase;
+}
+
+.toilet_content_right p{
+    color: #043480;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 22px;
+
+
+}
+.card{
+    background-position: center;
+    background-size: cover;
+    width: 442px;
+    height: 652px;
+}
+.slide_inline{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.slide_inline div{
+    width: 78px;
+    height: 78px;
+    margin: 0 20px;
+}
+.firsts{
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+
+
+.card{
+    position: relative;
+}
+.Circles{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 133px;
+    height: 133px;
+    position: absolute;
+    bottom: 9%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    color: white;
+}
+
+
+
+.combo{
+    position: absolute;
+    right: 5%;
+    top: 1150px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:768px) {
+    
+.combo{
+    position: absolute;
+    right: 5%;
+    top: 1250px
+}
+
+.toilet_banner{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 300px;
+}
+
+.none_el{
+    display: none;
+}
+
+
+.toilet_title{
+    padding-top: 150px;
+}
+
+.toilet_title h1{
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 0.2em;
+    font-family: 'TT Hazelnuts';
+    text-transform: uppercase;
+    color: #043480;
+}
+
+
+.toilet_title p{
+    color: #043480;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    width:100%;
+    margin-top: 50px;
+}
+
+.toilet_content_inline{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.toilet_content_right{
+    width: 100%;
+}
+
+.toilet_content_right h2{
+    color: #043480;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    line-height: 35px;
+    font-family: 'TT Hazelnuts';
+    text-transform: uppercase;
+}
+
+.toilet_content_right p{
+    color: #043480;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 22px;
+    width: 60%;
+    }
+}
+
+
+
+@media  only screen and (max-width:500px) {
+    .toilet_banner{
+        width: 93%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    .soap_product{
+        display: flex;
+        justify-content: center;
+    }
+    .card{
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 542px;
+        border-radius: 120px;
+    }
+    .combo{
+        position: absolute;
+        right: 5%;
+        top: 1250px;
+        display: none;
+    }
+
+
+    .slide_inline{
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+    }
+    .slide_inline div{
+        width: 78px;
+        height: 78px;
+        margin: 0 5px;
+    }
+    .toilet_content_right p{
+        color: #043480;
+        font-weight: 400;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        line-height: 22px;
+        width: 100%;
+        }
+}
+
+
+
+@media  (max-width:375px) {
+    .toilet_title h1{
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 25px;
+        letter-spacing: 0.2em;
+        font-family: 'TT Hazelnuts';
+        text-transform: uppercase;
+        color: #043480;
+    }
+}
+
+
+
+@media  (max-width:350px) {
+    .card{
+        background-position: center;
+        background-size: cover;
+        width: 322px;
+        height: 502px;
+        border-radius: 120px;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width:320px) {
+    .card{
+        background-position: center;
+        background-size: cover;
+        width: 302px !important;
+        height: 502px;
+        border-radius: 120px;
+    }
+
+    .slide_inline div{
+        width: 70px !important;
+        height: 70px !important;
+    }
+    
+.toilet_title{
+    padding-top: 100px;
+}
+
+.toilet_title h1{
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 0.2em;
+    font-family: 'TT Hazelnuts';
+    text-transform: uppercase;
+    color: #043480;
+}
+
+}

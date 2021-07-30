@@ -1,0 +1,433 @@
+@import url('../../assets/fonts/stylesheet.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+
+.clean_banner{
+    width: 84%;
+    margin:auto;
+    margin-bottom: 200px;
+}
+
+.clean_title{
+    padding-top: 230px;
+}
+.clean_title h1{
+    font-size: 38px;
+     font-weight: 900;
+     font-family: 'TT Hazelnuts';
+     line-height: 46px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #043480;
+    width: 70%;
+}
+
+.clean_title p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #043480;
+    width: 56%;
+    margin-top: 50px;
+    line-height: 30px;
+    font-family: 'Montserrat';
+}
+
+.clean_inline{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.clean_right{
+    width: 60%;
+}
+
+.clean_right div{
+    margin-bottom: 80px;
+}
+.clean_card{
+    width: 440px;
+    height: 600px;
+    border-radius: 120px;
+    background: #D474AB;
+}
+
+.clean_right h2{
+    font-family: 'TT Hazelnuts';
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #043480;
+    letter-spacing: 0.2em;
+}
+
+.clean_right p{
+    color: #043480;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    line-height: 22px;
+    width: 65%;
+    font-weight: 400;
+}
+
+.clean_bubble{
+    position: relative;
+}
+
+.clean_bubble img{
+    position: absolute;
+
+}
+
+.clean_b_one{
+    right: 0;
+    top: -150px;
+    width: 60px;
+}
+
+.clean_b_two{
+    right: 150px;
+    top: -100px;
+    width: 40px;
+}
+
+.clean_b_three{
+    right: 60px;
+    top: -50px;
+    width: 100px;
+}
+
+.clean_b_four{
+    right: 180px;
+    width: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1449px){
+    .clean_title h1{
+        width: 80%;
+    }
+    .clean_title p{
+        width: 65%;
+    }
+    .clean_right{
+        width: 55%;
+    }
+}
+
+
+@media (max-width:890px) {
+    .clean_title h1{
+        font-size: 28px;
+         font-weight: 900;
+         font-family: 'TT Hazelnuts';
+         line-height: 36px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #043480;
+        width: 90%;
+    }
+
+    .clean_title p{
+        font-size: 14px;
+        font-weight: 400;
+        color: #043480;
+        width: 70%;
+        margin-top: 50px;
+        line-height: 30px;
+        font-family: 'Montserrat';
+    }
+
+    .clean_inline{
+        display: flex;
+        margin-top: 100px;
+        justify-content:center;
+        flex-direction: column;
+    }
+    .clean_left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .clean_right{
+        margin-top: 50px;
+    }
+    .clean_right h2{
+        font-family: 'TT Hazelnuts';
+        font-weight: 900;
+        font-size:18px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #043480;
+        letter-spacing: 0.2em;
+    }
+
+    .clean_right p{
+        color: #043480;
+        font-size: 12px;
+        font-family: 'Montserrat';
+        line-height: 22px;
+        width: 100%;
+        font-weight: 400;
+    }
+
+
+    
+.clean_b_one{
+    right: 130px;
+    top: -500px;
+    width: 60px;
+}
+
+.clean_b_two{
+    right: 200px;
+    top: -520px;
+    width: 40px;
+}
+
+.clean_b_three{
+    right:110px;
+    top: -430px;
+    width: 100px;
+}
+
+.clean_b_four{
+    right: 280px;
+    width: 70px;
+    top: -300px;
+}
+
+    
+}
+
+
+
+@media  (max-width:500px) {
+    .clean_title{
+        padding-top: 200px;
+    }
+    .clean_title h1{
+        font-size: 20px;
+         font-weight: 900;
+         font-family: 'TT Hazelnuts';
+         line-height: 24px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #043480;
+        width: 100%;
+    }
+    
+    .clean_title p{
+        font-size: 10px;
+        font-weight: 400;
+        color: #043480;
+        width: 86%;
+        margin-top: 50px;
+        line-height: 30px;
+        font-family: 'Montserrat';
+    }
+    
+
+    .clean_right h2{
+        font-family: 'TT Hazelnuts';
+        font-weight: 900;
+        font-size:16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #043480;
+        width: 100%;
+        letter-spacing: 0.2em;
+    }
+    .clean_right{
+        width: 100%;
+    }
+    .clean_right p{
+        color: #043480;
+        font-size: 12px;
+        font-family: 'Montserrat';
+        line-height: 22px;
+        width: 100%;
+        font-weight: 400;
+    }
+    .clean_bubble img{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+@media  (max-width:451px) {
+    .clean_card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        border-radius: 120px;
+        background: #D474AB;
+    }
+    .clean_card img{
+        width: 80%;
+    }
+}
+
+
+
+
+@media  (max-width:375px) {
+    .clean_banner{
+        width: 93%;
+        margin:auto;
+        margin-bottom: 0px;
+    }
+    .clean_title{
+        padding-top: 100px;
+    }
+    .clean_title h1{
+        font-size: 20px;
+         font-weight: 900;
+         font-family: 'TT Hazelnuts';
+         line-height: 24px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #043480;
+        width: 100%;
+    }
+
+    .clean_title p{
+        font-size: 10px;
+        font-weight: 400;
+        color: #043480;
+        width: 100%;
+        margin-top: 50px;
+        line-height: 20px;
+        font-family: 'Montserrat';
+    }
+    
+}
+
+
+
+
+
+
+
+@media  (max-width:414px) {
+    .clean_banner{
+        width: 92%;
+        margin:auto;
+        margin-bottom: 200px;
+    }
+    
+    .clean_title{
+        padding-top: 140px;
+    }
+    .clean_title p{
+        font-size: 12px;
+        font-weight: 400;
+        color: #043480;
+        width: 100%;
+        margin-top: 50px;
+        line-height: 25px;
+        font-family: 'Montserrat';
+    }
+    .clean_card{
+        width: 100%;
+        height: 525px;
+        border-radius: 120px;
+        background: #D474AB;
+    }
+}
+
+
+
+
+
+
+
+
+@media  (max-width:320px) {
+    
+.clean_banner{
+    width: 90%;
+    margin:auto;
+    margin-bottom: 50px;
+}
+
+.clean_title{
+    padding-top: 100px;
+}
+.clean_title h1{
+    font-size: 18px;
+     font-weight: 900;
+     font-family: 'TT Hazelnuts';
+     line-height: 26px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #043480;
+    width: 100%;
+}
+
+.clean_card{
+    width: 100%;
+    height: 425px;
+    border-radius: 100px;
+    background: #D474AB;
+}
+}

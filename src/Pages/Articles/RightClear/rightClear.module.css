@@ -1,0 +1,454 @@
+@import url('../../../assets/fonts/stylesheet.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+
+
+.clean_banner{
+    width: 82%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.clean_title{
+    padding-top: 200px;
+}
+
+.clean_title h1{
+    color: #043480;
+    font-family: 'TT Hazelnuts';
+    font-weight: 900;
+    font-size: 38px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.clean_img{
+    margin-top: 80px;
+}
+
+.clean_img img{
+    width: 100%;
+    height: 612px;
+}
+
+
+
+.clean_text{
+    margin-top: 150px;
+}
+
+.clean_text p{
+    color: #043480;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    line-height: 30px;
+    width: 62%;
+}
+
+.clean_text div{
+    margin: 60px 0;
+}
+
+.clean_text h2{
+    color: #043480;
+    font-size: 22px;
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 70%;
+    margin-top: 60px;
+}
+
+
+.clean_text h3{
+    color: #043480;
+    font-size: 22px;
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    position: relative;
+
+}
+
+.rejim::before{
+    content: '';
+    width: 44px;
+    height: 44px;
+    left: -55px;
+    top: -5px;
+    position: absolute;
+    background: url('../../../assets/Article/right-clean/contribute.png') center / cover;
+}
+
+
+
+.nature::before{
+    content: '';
+    width: 44px;
+    height: 44px;
+    left: -55px;
+    top: -5px;
+    position: absolute;
+    background: url('../../../assets/Article/right-clean/nature.png') center / cover;
+}
+
+
+
+.sushka::before{
+    content: '';
+    width: 44px;
+    height: 44px;
+    left: -55px;
+    top: -5px;
+    position: absolute;
+    background: url('../../../assets/Article/right-clean/sushka.png') center / cover;
+}
+
+
+
+.glajka::before{
+    content: '';
+    width: 44px;
+    height: 44px;
+    left: -55px;
+    top: -5px;
+    position: absolute;
+    background: url('../../../assets/Article/right-clean/glaja.png') center / cover;
+}
+
+
+.chemic::before{
+    content: '';
+    width: 44px;
+    height: 44px;
+    left: -55px;
+    top: -5px;
+    position: absolute;
+    background: url('../../../assets/Article/right-clean/chemic.png') center / cover;
+}
+
+
+
+.notClean::before{
+    content: '';
+    width: 44px;
+    height: 44px;
+    left: -55px;
+    top: -5px;
+    position: absolute;
+    background: url('../../../assets/Article/right-clean/notClean.png') center / cover;
+}
+
+
+.clean_buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.clean_twoButtons{
+    display: flex;
+}
+
+.activeBtn{
+    width: 142px;
+    border-radius: 30px;
+    height: 65px;
+    background: rgba(137, 205, 234, 1);
+    border:0;
+    color: white;
+    font-size: 20px;
+    font-family: 'TT Hazelnuts';
+    font-weight: 900;
+    margin-right: 20px;
+    letter-spacing: 0.2em;
+}
+
+.unActiveBtn{
+    width: 64px;
+    height: 64px;
+    border:2px solid rgba(137, 205, 234, 1);
+    background: none;
+    border-radius: 100%;
+    color: rgba(137, 205, 234, 1);
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    font-size: 20px;
+
+}
+
+
+.clean_allArticle button{
+    width: 209px;
+    border-radius:110px;
+    height: 75px;
+    background: rgba(137, 205, 234, 1);
+    border:0;
+    color: white;
+    font-size: 20px;
+    font-family: 'TT Hazelnuts';
+    font-weight: 900;
+    margin-right: 18px;
+    letter-spacing: 0.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:768px) {
+    .clean_banner{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+        
+    .clean_title h1{
+        color: #043480;
+        font-family: 'TT Hazelnuts';
+        font-weight: 900;
+        font-size: 28px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+    }
+    .clean_title{
+        padding-top: 150px;
+    }
+
+    .clean_img img{
+        width: 100%;
+        height: 382px;
+    }
+    
+    .clean_text{
+        margin-top: 50px;
+    }
+    
+    .clean_text p{
+        color: #043480;
+        font-size: 12px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        line-height: 22px;
+        width: 100%;
+    }
+
+    .clean_text h2{
+        color: #043480;
+        font-size: 18px;
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        line-height: 26px;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+
+    
+    .clean_text h3{
+        color: #043480;
+        font-size: 18px;
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        line-height: 35px;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        position: relative;
+        left: 60px;
+
+    }
+
+}
+
+
+
+@media  (max-width:500px) {
+    .clean_title h1{
+        color: #043480;
+        font-family: 'TT Hazelnuts';
+        font-weight: 900;
+        font-size: 20px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+    }
+
+    .clean_img img{
+        width: 100%;
+        height: 292px;
+        object-fit: cover;
+    }
+    .clean_text p{
+        color: #043480;
+        font-size: 10px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        line-height: 22px;
+        width: 100%;
+    }
+    .clean_text h2{
+        color: #043480;
+        font-size: 12px;
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        line-height: 26px;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .clean_text h3{
+        color: #043480;
+        font-size: 12px;
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        line-height: 35px;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        position: relative;
+        left: 0px;
+        transform: translateX(65px)
+    }
+    .clean_text{
+        overflow-x: hidden;
+    }
+
+
+    .clean_buttons{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 150px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .clean_twoButtons{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .clean_allArticle button{
+        width: 288px;
+        border-radius:110px;
+        height: 69px;
+        background: rgba(137, 205, 234, 1);
+        border:0;
+        color: white;
+        font-size: 16px;
+        font-family: 'TT Hazelnuts';
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-right: 18px;
+        letter-spacing: 0.2em;
+        margin-top: 50px;
+    }
+
+    
+.activeBtn{
+    width:60px;
+    border-radius: 30px;
+    height: 60px;
+    background: rgba(137, 205, 234, 1);
+    border:0;
+    color: white;
+    font-size: 20px;
+    font-family: 'TT Hazelnuts';
+    font-weight: 900;
+    margin-right: 20px;
+    letter-spacing: 0.2em;
+}
+
+.unActiveBtn{
+    width: 136px;
+    height: 61px;
+    border:2px solid rgba(137, 205, 234, 1);
+    background: none;
+    border-radius: 30px;
+    color: rgba(137, 205, 234, 1);
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    font-size: 20px;
+
+}
+    
+}   
+
+
+
+@media  (max-width:414px) {
+    .clean_img{
+        margin-top: 30px;
+    }
+    .clean_img img {
+        object-fit: cover;
+    }
+    .clean_banner{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    
+    .clean_buttons{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+@media  only screen and (max-width:320px) {
+    .clean_banner{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    .clean_title{
+        padding-top: 100px;
+    }
+    
+    .clean_title h1{
+        color: #043480;
+        font-family: 'TT Hazelnuts';
+        font-weight: 900;
+        font-size: 18px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+    }
+    .clean_img{
+        margin-top: 40px;
+    }
+    
+}

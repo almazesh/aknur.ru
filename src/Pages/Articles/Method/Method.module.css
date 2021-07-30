@@ -1,0 +1,300 @@
+@import url('../../../assets/fonts/stylesheet.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+
+.method_banner{
+    width: 81%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.method_title{
+    padding-top: 200px;
+}
+
+.method_title h1{
+    color: #043480;
+    font-size: 38px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+}
+
+.method_title img{
+    margin-top: 60px;
+    width: 100%;
+}
+.method_text{
+    margin-top: 100px;
+}
+.method_text h2{
+    color: #043480;
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-family: 'TT Hazelnuts';
+}
+
+.method_text div{
+    margin:70px 0;
+}
+
+.method_text p{
+    color: #043480;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    width: 70%;
+}   
+
+
+
+
+
+
+.clean_buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.clean_twoButtons{
+    display: flex;
+}
+
+.activeBtn{
+    width: 142px;
+    border-radius: 30px;
+    height: 65px;
+    background: rgba(137, 205, 234, 1);
+    border:0;
+    color: white;
+    font-size: 20px;
+    font-family: 'TT Hazelnuts';
+    font-weight: 900;
+    margin-right: 20px;
+    letter-spacing: 0.2em;
+}
+
+.unActiveBtn{
+    width: 64px;
+    height: 64px;
+    border:2px solid rgba(137, 205, 234, 1);
+    background: none;
+    border-radius: 100%;
+    color: rgba(137, 205, 234, 1);
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    font-size: 20px;
+
+}
+
+
+.clean_allArticle button{
+    width: 209px;
+    border-radius:110px;
+    height: 75px;
+    background: rgba(137, 205, 234, 1);
+    border:0;
+    color: white;
+    font-size: 20px;
+    font-family: 'TT Hazelnuts';
+    font-weight: 900;
+    margin-right: 18px;
+    letter-spacing: 0.2em;
+}
+
+
+
+
+
+
+
+
+@media  (max-width:768px) {
+    
+    .method_banner{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .method_title{
+        padding-top: 150px;
+    }
+
+    .method_title h1{
+        color: #043480;
+        font-size: 28px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+    }
+
+    .method_title img{
+        margin-top: 60px;
+        width: 100%;
+        height: 296px;
+    }
+    .method_text{
+        margin-top: 30px;
+    }
+    .method_text h2{
+        color: #043480;
+        font-size: 18px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        font-family: 'TT Hazelnuts';
+    }
+
+        
+    .method_text p{
+        color: #043480;
+        font-family: 'Montserrat';
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 400;
+        width: 100%;
+    }   
+
+}
+
+
+@media  (max-width:500px) {
+    .method_title h2{
+        color: #043480;
+        font-size: 12px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+    }
+
+        
+    .clean_buttons{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 150px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .clean_twoButtons{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .clean_allArticle button{
+        width: 288px;
+        border-radius:110px;
+        height: 69px;
+        background: rgba(137, 205, 234, 1);
+        border:0;
+        color: white;
+        font-size: 16px;
+        font-family: 'TT Hazelnuts';
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-right: 18px;
+        letter-spacing: 0.2em;
+        margin-top: 50px;
+    }
+
+    
+.activeBtn{
+    width:60px;
+    border-radius: 30px;
+    height: 60px;
+    background: rgba(137, 205, 234, 1);
+    border:0;
+    color: white;
+    font-size: 20px;
+    font-family: 'TT Hazelnuts';
+    font-weight: 900;
+    margin-right: 20px;
+    letter-spacing: 0.2em;
+}
+
+.unActiveBtn{
+    width: 136px;
+    height: 61px;
+    border:2px solid rgba(137, 205, 234, 1);
+    background: none;
+    border-radius: 30px;
+    color: rgba(137, 205, 234, 1);
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    font-size: 20px;
+
+}
+
+}
+
+
+
+
+
+@media  (max-width:414px){
+         
+    .clean_buttons{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  only screen and (max-width:320px) {
+    .method_banner{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .method_title{
+        padding-top: 100px;
+    }
+    
+    .method_title h1{
+        color: #043480;
+        font-size: 18px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+    }
+    
+    .method_title img{
+        margin-top: 50px;
+        width: 100%;
+    }
+}

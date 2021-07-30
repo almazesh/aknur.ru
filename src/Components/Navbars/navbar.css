@@ -1,0 +1,780 @@
+@import url('../../assets/fonts/stylesheet.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+
+.nav_banner{
+    display: flex;
+    justify-content: flex-end;
+    width: 96%;
+    margin: auto;
+
+}
+.absolute_nav{
+    position: absolute;
+    width: 100%;
+    z-index: 20;
+}
+
+
+.nav_inline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav_inline ul li{
+    transition: 0.3s;
+}
+
+.toggle{
+    display: none;
+}
+.nav_left{
+    display: flex;
+    transform: translateX(17px);
+    width: 355px;
+    justify-content: space-around;
+}
+
+.nav_right{
+    display: flex;
+    justify-content: space-between;
+    width: 358px;
+}
+
+.nav_right li select{
+    background: none;
+    border:0;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #043480;
+    -webkit-appearance: none;
+}
+
+
+.nav_inline ul{
+    list-style:none;
+    margin-top: 8px;
+}
+
+.nav_inline ul li a{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color:#043480 ;
+    font-style: normal;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.nav_logo li a img{
+    width: 106px;
+    transform: translateY(10px);
+    height: 98px;
+}
+
+
+
+
+
+/* HOVER menu */
+
+.menu{
+    position: absolute;
+    background: url('../../assets/Logo/productMenu.png') ;
+    width:90%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: 200px;
+    top: 40px;
+}
+
+.productHover:hover .menu{
+    display: flex;
+}
+.productHover:hover .product_link{
+    padding-bottom: 50px;
+}
+
+
+
+.menu div{
+    transform: translateY(5px);
+}
+
+.menu a{
+    display: block;
+    line-height: 40px;
+    font-weight: bold;
+    color: white !important;
+    font-family: 'Montserrat';
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contacts menu */
+
+.contact_menu{
+    position: absolute;
+    background: url('../../assets/Logo/dillerMenu.png') no-repeat;
+    height: 85px;
+    width: 200px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 88px;
+
+
+}
+.contact_hover:hover .contact_menu{
+    display: flex;
+}
+
+.contact_menu a{
+    color: white !important;
+}
+
+.contact_hover:hover a{
+    padding-bottom: 40px;
+}
+
+.contact_menu div {
+    transform: translateY(5px);
+}
+
+.contact_menu div a{
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SIDEBAR */
+
+
+
+
+.sidebar_banner{
+    display: none;
+}
+
+@media  (max-width:768px) {
+        
+.sidebar_banner{
+    background: #043480;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    display: block;
+    right: -100%;
+    z-index: 25;
+    transition: 0.3s;
+}
+.sidebar_banner.active{
+    right: 0;
+    transition: 0.3s;
+}
+.sidebar_content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 150px;
+}
+.sidebar_lang{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    transform: translateY(-50px);
+    justify-content: space-between;
+}
+.sidebar_content ul li{
+    line-height: 90px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.sidebar_content ul li i{
+    cursor: pointer;
+    font-size: 20px;
+}
+.sidebar_content ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-family: 'TT Hazelnuts';
+    text-transform: uppercase;
+}
+
+.sidebar_close{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    
+}
+
+
+.sidebar_banner span{
+    color: white;
+    font-size: 34px;
+}
+
+}
+
+
+
+
+
+/* Multi */
+.multi_banner{
+    display: none;
+}
+
+@media (max-width:768px) {
+    .multi_banner{
+        background: #043480;
+        height: 100vh;
+        position: fixed;
+        width: 100%;
+        display: block;
+        right: -100%;
+        z-index: 25;
+        transition: 0.3s;
+    }
+    .multi_banner.activeMulti{
+        right: 0;
+    }
+    .multi_item{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .multi_item span{
+        font-size: 30px;
+    }
+    .multi_content{
+        width: 85%;
+        margin: auto;
+        height: 80%;
+        display: flex;
+        align-items: center;
+    }
+    .multi_content ul{
+        list-style: none;
+    }
+    .multi_content ul li a{
+        color: white;
+        font-size: 18px;
+        font-family:'TT Hazelnuts';
+        font-weight: 900;
+        letter-spacing: 0.2em;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .multi_content ul li{
+        margin: 60px 0;
+    }
+}        
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+.contact_banner{
+    display: none;
+}
+
+@media (max-width:768px) {
+    .contact_banner{
+        background: #043480;
+        height: 100vh;
+        position: fixed;
+        width: 100%;
+        display: block;
+        right: -100%;
+        z-index: 25;
+        transition: 0.3s;
+    }
+    .contact_banner.activeContact{
+        right: 0;
+    }
+    .contact_item{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .contact_item span{
+        font-size: 30px;
+    }
+    .contact_content{
+        width: 85%;
+        margin: auto;
+        height: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .sidebar_addres{
+        width: 85%;
+        margin: auto;
+        height: 40%;
+        display: flex;
+        align-items: center;
+    }
+    .sidebar_addres ul li:nth-child(1){
+        display: flex;
+        color: rgba(137, 205, 234, 1);
+        align-items: flex-start;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 12px;
+
+    }
+    .sidebar_addres ul li:nth-child(2){
+        display: flex;
+        color: rgba(137, 205, 234, 1);
+        align-items: flex-start;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 12px;
+
+    }
+    .sidebar_addres ul li:nth-child(3){
+        display: flex;
+        color: rgba(137, 205, 234, 1);
+        align-items: flex-start;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: 50px;
+    }
+    .sidebar_addres ul li:nth-child(3) p{
+        width: 60%;
+
+    }
+    .sidebar_addres ul li p{
+        margin: 0;
+        margin-bottom: 10px;
+        color: rgba(137, 205, 234, 1)   ;
+        margin-left: 10px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .sidebar_addres ul{
+        list-style: none;
+    }
+    .contact_content ul{
+        list-style: none;
+    }
+    .contact_content ul li a{
+        color: white;
+        font-size: 18px;
+        font-family:'TT Hazelnuts';
+        font-weight: 900;
+        letter-spacing: 0.2em;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .contact_content ul li{
+        margin: 60px 0;
+    }
+}        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:495px) {
+    .sidebar_lang{
+        display: flex;
+        align-items: center;
+        width: 40%;
+        transform: translateY(-10px);
+        justify-content: space-between;
+    }
+    .sidebar_content ul li i{
+        cursor: pointer;
+        font-size: 15px;
+    }
+    .sidebar_content ul li{
+        line-height: 70px;
+    }
+    .sidebar_content ul li a{
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 3px;
+        font-family: 'TT Hazelnuts';
+        text-transform: uppercase;
+    }
+    .sidebar_content{
+        margin-left: 0;
+    }
+    .sidebar_close span{
+        font-size: 30px;
+    }
+
+
+
+
+
+
+
+
+
+    /* PRODUCT */
+
+
+    .multi_banner{
+        background: #043480;
+        height: 100vh;
+        position: fixed;
+        width: 100%;
+        display: block;
+        right: -100%;
+        z-index: 25;
+        transition: 0.3s;
+    }
+    .multi_banner.activeMulti{
+        right: 0;
+    }
+    .multi_item{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .multi_item span{
+        font-size: 30px;
+    }
+    .multi_content{
+        width:90%;
+        margin: auto;
+        height: 80%;
+        display: flex;
+        align-items: center;
+    }
+    .multi_content ul{
+        list-style: none;
+        padding-left: 0;
+    }
+    .multi_content ul li a{
+        color: white;
+        font-size: 14px;
+        font-family:'TT Hazelnuts';
+        font-weight: 900;
+        letter-spacing: 0.2em;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .multi_content ul li{
+        margin: 60px 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Ccontact */
+
+
+
+    .contact_banner{
+        background: #043480;
+        height: 100vh;
+        position: fixed;
+        width: 100%;
+        display: block;
+        right: -100%;
+        z-index: 25;
+        transition: 0.3s;
+    }
+    .contact_banner.activeContact{
+        right: 0;
+    }
+    .contact_item{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .contact_item span{
+        font-size: 30px;
+    }
+    .contact_content{
+        width: 90%;
+        margin: auto;
+        height: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .sidebar_addres{
+        width: 90%;
+        margin: auto;
+        height: 40%;
+        display: flex;
+        align-items: center;
+    }
+    .sidebar_addres ul li:nth-child(1){
+        display: flex;
+        color: rgba(137, 205, 234, 1);
+        align-items: flex-start;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 12px;
+
+    }
+    .sidebar_addres ul li:nth-child(2){
+        display: flex;
+        color: rgba(137, 205, 234, 1);
+        align-items: flex-start;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 12px;
+
+    }
+    .sidebar_addres ul li:nth-child(3){
+        display: flex;
+        color: rgba(137, 205, 234, 1);
+        align-items: flex-start;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: 50px;
+    }
+    .sidebar_addres ul li:nth-child(3) p{
+        width: 60%;
+        line-height: 22px;
+
+    }
+    .sidebar_addres ul li p{
+        margin: 0;
+        margin-bottom: 10px;
+        color: rgba(137, 205, 234, 1)   ;
+        margin-left: 25px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .sidebar_addres ul{
+        padding-left: 0;
+        list-style: none;
+    }
+    .contact_content ul{
+        list-style: none;
+        padding-left: 0;
+
+    }
+    .contact_content ul li a{
+        color: white;
+        font-size: 14px;
+        font-family:'TT Hazelnuts';
+        font-weight: 900;
+        letter-spacing: 0.2em;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .contact_content ul li{
+        margin: 60px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA */
+
+@media  (max-width:768px) {
+    .nav_right {
+        display: none;
+    }
+    .nav_left{
+        display: none;
+    }
+    .nav_logo li a img{
+        width: 67px;
+        height: 61px;
+    }
+    .nav_banner{
+        width: 100%;
+    }
+    .toggle{
+        display: block;
+        transform: translateX(-20px);
+    }
+}
+
+
+@media  (max-width:425px)  {
+    .nav_logo li a img{
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        transform: translateY(-3px);
+    }
+    .toggle{
+        display: block;
+        transform: translateX(-10px);
+    }
+    
+    .nav_logo{
+        
+        padding-left: 4px;
+    }
+    .toggle li img{
+        width: 24px;
+            height: 24px;
+    }
+}

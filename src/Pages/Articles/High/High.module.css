@@ -1,0 +1,269 @@
+@import url('../../../assets/fonts/stylesheet.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+
+
+.high_banner{
+    width: 81%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.high_title{
+    padding-top: 200px;
+}
+.high_title h1{
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-family: 'TT Hazelnuts';
+    color: #043480;
+}
+
+.high_title img{
+    margin-top: 50px;
+    width: 100%;
+}
+.high_text{
+    margin-top: 100px;
+}
+
+.high_text p{
+    color: #043480;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    width: 70%;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+
+
+
+.clean_buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.clean_twoButtons{
+    display: flex;
+}
+
+.activeBtn{
+    width: 142px;
+    border-radius: 30px;
+    height: 65px;
+    background: rgba(137, 205, 234, 1);
+    border:0;
+    color: white;
+    font-size: 20px;
+    font-family: 'TT Hazelnuts';
+    font-weight: 900;
+    margin-right: 20px;
+    letter-spacing: 0.2em;
+}
+
+.unActiveBtn{
+    width: 64px;
+    height: 64px;
+    border:2px solid rgba(137, 205, 234, 1);
+    background: none;
+    border-radius: 100%;
+    color: rgba(137, 205, 234, 1);
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    font-size: 20px;
+
+}
+
+
+.clean_allArticle button{
+    width: 209px;
+    border-radius:110px;
+    height: 75px;
+    background: rgba(137, 205, 234, 1);
+    border:0;
+    color: white;
+    font-size: 20px;
+    font-family: 'TT Hazelnuts';
+    font-weight: 900;
+    margin-right: 18px;
+    letter-spacing: 0.2em;
+}
+
+
+
+
+
+
+
+
+
+@media  (max-width:768px) {
+    
+    .high_banner{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .high_title{
+        padding-top: 150px;
+    }
+    .high_title h1{
+        font-size: 28px;
+        font-weight: 900;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        font-family: 'TT Hazelnuts';
+        color: #043480;
+    }
+
+    
+    .high_title img{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .high_text{
+        margin-top: 50px;
+    }
+
+    .high_text p{
+        color: #043480;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        width: 100%;
+        line-height: 22px;
+        font-weight: normal;
+    }
+}
+
+
+
+
+
+@media  (max-width:500px) {
+    .high_text p{
+        color: #043480;
+        font-family: 'Montserrat';
+        font-size: 10px;
+        width: 100%;
+        line-height: 22px;
+        font-weight: normal;
+    }
+    .high_title h1{
+        font-size: 20px;
+        font-weight: 900;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        font-family: 'TT Hazelnuts';
+        color: #043480;
+    }
+    
+    .clean_buttons{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 150px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .clean_twoButtons{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .clean_allArticle button{
+        width: 288px;
+        border-radius:110px;
+        height: 69px;
+        background: rgba(137, 205, 234, 1);
+        border:0;
+        color: white;
+        font-size: 16px;
+        font-family: 'TT Hazelnuts';
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-right: 18px;
+        letter-spacing: 0.2em;
+        margin-top: 50px;
+    }
+
+    
+.activeBtn{
+    width:60px;
+    border-radius: 30px;
+    height: 60px;
+    background: rgba(137, 205, 234, 1);
+    border:0;
+    color: white;
+    font-size: 20px;
+    font-family: 'TT Hazelnuts';
+    font-weight: 900;
+    margin-right: 20px;
+    letter-spacing: 0.2em;
+}
+
+.unActiveBtn{
+    width: 136px;
+    height: 61px;
+    border:2px solid rgba(137, 205, 234, 1);
+    background: none;
+    border-radius: 30px;
+    color: rgba(137, 205, 234, 1);
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    font-size: 20px;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:414px){
+    .clean_buttons{
+        display: flex;
+        justify-content: space-between;
+        margin-top:20px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+@media  (max-width:320px) {
+    .high_banner{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .high_title{
+        padding-top: 100px;
+    }
+    .high_title h1{
+        font-size: 18px;
+        font-weight: 900;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        font-family: 'TT Hazelnuts';
+        color: #043480;
+    }
+    
+    .high_title img{
+        margin-top: 30px;
+        width: 100%;
+    }
+}

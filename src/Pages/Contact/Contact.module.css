@@ -1,0 +1,496 @@
+@import url('../../assets/fonts/stylesheet.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+
+
+.contact_banner{
+    width: 82%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.form input{
+    color: #043480 !important;
+}
+.contact_title
+{
+    padding-top: 200px;
+}
+
+.contact_title h1{
+    font-size: 38px;
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    line-height: 46px;
+    color: #043480;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.contact_title p{
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Montserrat';
+    color: #043480;
+    margin-top: 80px;
+}
+
+
+.contact_form{
+    margin-top: 80px;
+}
+.form{
+    width: 556px;
+}
+
+.form .max_input input{
+    width: 100%;
+    border:0;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    line-height: 30px;
+    color: #89CDEA;
+    border-bottom: 2px solid #043480;
+    padding:5px 10px;
+    margin: 15px 0;
+}
+
+.form input{
+    border:0;
+    text-transform: capitalize;
+    font-size: 14px;
+    outline: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    line-height: 30px;
+    color: #89CDEA;
+    border-bottom: 2px solid #043480;
+    padding:10px 10px;
+    margin: 15px 0;
+}
+
+.form select{
+    border:0;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    outline: none;
+    line-height: 30px;
+    color: #89CDEA;
+    border-bottom: 2px solid #043480;
+    padding:10px 10px;
+    margin:27px 0;
+}
+.form  input::-webkit-input-placeholder{color: #89CDEA;}
+
+
+.contact_inline_input{
+    display: flex;
+    width: 575px !important;
+    justify-content: space-between;
+}
+
+.contact_inline_input div .international{
+    width: 190px;
+}
+
+.contact_inline_input div .number{
+    width: 100%;
+}
+
+
+.contact_b{
+    display: flex;
+    width: 575px !important; 
+    justify-content: space-between;
+}
+
+.contact_b input{
+    width: 120%;
+}
+
+form div textarea{
+    width: 559px;
+    border:0;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    outline: none;
+    line-height: 30px;
+    color: #043480;
+    border-bottom: 2px solid #043480;
+    padding:40px 10px;
+    margin:27px 0;
+}
+
+
+
+.contact_сheck input{
+    margin-right: 20px;
+}
+
+.contact_сheck label{
+    color: #043480;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+
+form button{
+    margin-top: 80px;
+    width: 209px;
+    height: 75px;
+    background: #89CDEA;
+    border:0;
+    outline: 0;
+    font-size:18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.2em;
+    font-family: 'TT Hazelnuts';
+    border-radius: 110px;
+}
+
+form button:hover{
+    background: #043480;
+}
+
+
+
+
+
+
+
+
+@media  (max-width:1446px) {
+    
+.contact_inline_input{
+    display: flex;
+    width: 110%;
+    justify-content: space-between;
+}
+
+.contact_inline_input div .international{
+    width: 100px;
+}
+
+.contact_inline_input div .number{
+    width: 300px;
+}
+.contact_b{
+    display: flex;
+    width: 110%;
+    justify-content: space-between;
+}
+
+.contact_b input{
+    width: 250px;
+}
+}
+
+
+
+
+
+
+@media  (max-width:768px) {
+    .contact_inline_input{
+        display: flex;
+        width: 149%;
+        justify-content: space-between;
+    }
+    
+    .contact_inline_input div .number{
+        width: 300px;
+    }
+    .contact_title h1{
+        font-size: 28px;
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        line-height: 46px;
+        color: #043480;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+    }
+    
+    .contact_title p{
+        font-size: 14px;
+        line-height: 30px;
+        font-family: 'Montserrat';
+        color: #043480;
+        margin-top: 80px;
+    }
+    
+    .contact_banner{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .contact_inline_input{
+        display: flex;
+        width: 575px;
+        justify-content: space-between;
+    }
+    
+    .contact_inline_input div .international{
+        width: 190px;
+    }
+    
+    .contact_inline_input div .number{
+        width: 250px;
+    }
+    
+    .contact_b{
+        display: flex;
+        width: 516px !important;
+        justify-content: space-between;
+    }
+
+    .contact_b input{
+        width: 120%;
+    }
+
+    .contact_form{
+        width: 100%;
+
+    }
+
+.contact_сheck label{
+    color: #043480;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+
+}
+
+
+
+
+
+
+@media  (max-width:618px) {
+    .max_input{
+        width: 100%;
+    }
+    .contact_inline_input{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .contact_b{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .contact_b input{
+        width: 100%;
+    }
+        
+    form div textarea{
+        width: 100%;
+        border:0;
+        font-size: 14px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        outline: none;
+        line-height: 30px;
+        color: #89CDEA;
+        border-bottom: 2px solid #043480;
+        padding:40px 10px;
+        margin:27px 0;
+    }   
+    .contact_inline_input div .international{
+        width: 100%;
+    }
+    
+    .contact_inline_input div .number{
+        width: 100%;
+    }
+
+    .contact_inline_input{
+        display: flex;
+        width: 105%;
+        justify-content: space-between;
+    }
+    
+    .contact_inline_input div .number{
+        width: 300px;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width:414px) {
+    .contact_banner{
+        width: 92%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    .form input{
+        color: #043480 !important;
+    }
+    .contact_title
+    {
+        padding-top: 110px;
+    }
+    .form{
+        width: 100%;
+    }
+    
+    .form .max_input input{
+        width: 95%;
+        border:0;
+        font-size: 14px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        line-height: 30px;
+        color: #89CDEA;
+        border-bottom: 2px solid #043480;
+        padding:5px 10px;
+        margin: 15px 0;
+    }
+    
+    .form input{
+        border:0;
+        font-size: 14px;
+        outline: none;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        line-height: 30px;
+        color: #89CDEA;
+        border-bottom: 2px solid #043480;
+        padding:10px 10px;
+        margin: 15px 0;
+    }
+    
+    .form select{
+        border:0;
+        font-size: 14px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        outline: none;
+        line-height: 30px;
+        color: #89CDEA;
+        border-bottom: 2px solid #043480;
+        padding:10px 10px;
+        margin:27px 0;
+    }
+
+
+
+
+
+
+
+    
+.contact_inline_input{
+    display: flex;
+    width: 95% !important;
+    justify-content: space-between;
+}
+
+.contact_inline_input div .international{
+    width: 80px;
+}
+
+.contact_inline_input div .number{
+    width: 100%;
+}
+
+
+.contact_b{
+    display: inline;
+    width: 100% !important; 
+    justify-content: space-between;
+}
+
+.contact_b input{
+    width: 95%;
+}
+
+.noneTown{
+    display: none;
+}
+
+
+form button{
+    margin-top: 80px;
+    width: 100%;
+    height: 75px;
+    background: #89CDEA;
+    border:0;
+    outline: 0;
+    font-size:18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.2em;
+    font-family: 'TT Hazelnuts';
+    border-radius: 110px;
+}
+form{
+    width: 100%;
+}
+.centerBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form div textarea{
+    width: 95%;
+    border:0;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    outline: none;
+    line-height: 30px;
+    color: #89CDEA;
+    border-bottom: 2px solid #043480;
+    padding:40px 10px;
+    margin:27px 0;
+}
+}
+
+
+
+@media only screen and (max-width:320px) {
+    
+    .contact_title h1{
+        font-size: 20px;
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        line-height: 46px;
+        color: #043480;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+    }
+
+    .contact_title{
+    padding-top: 100px;
+}
+.contact_inline_input{
+    display: flex;
+    width: 107%;
+    justify-content: space-between;
+}
+
+.contact_inline_input div .number{
+    width: 200px;
+}
+
+.contact_b{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.contact_b input{
+    width: 100%;
+}
+}
