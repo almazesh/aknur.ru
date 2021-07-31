@@ -1,4 +1,4 @@
-export const ruLangData = {
+export const ruLangData = { 
 
     menu:{
 
@@ -940,10 +940,10 @@ export const tmLangData = {
     },
     medal:'img/medal/tmText.png',
     goodFor:{
-        rightClear:'Dogry ýuwmagyň hemme zady',
-        prostyn:'Sahypalary nädip ýuwmaly',
-        lifehack:'Hinguwmak üçin durmuş döwülýär',
-        deepclear:'Kir ýuwýan maşyny çuňňur arassalamak',
+        rightClear:'Kiri dogry ýuwmagyň düzgünleri barada ',
+        prostyn:'Ýorgan-düşek daşlyklaryny nähili ýuwmaly',
+        lifehack:'Kir ýuwmagyň syrlary',
+        deepclear:'Kir ýuwujy maşyny çuňňur arassalamak',
         high:"Bagtly Zamanyň önümleriniň ýokary netijeliligi",
         method:'Erguwujy serişdeler'
     }

@@ -1,4 +1,4 @@
-@import url('../../../assets/fonts/stylesheet.css');
+    @import url('../../../assets/fonts/stylesheet.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
 
 .main_banner{
@@ -547,7 +547,427 @@
 
 
 
+@media  (max-width:1024px) and (max-height:1366px){
+   
+  
+    .main_inline{
+        display: flex;
+        justify-content: unset;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 40vh;
+        text-align: center ;
+    }
+    .main_left{
+        order: 1;
+    }
 
+    .main_center{
+        order: 3;
+    }
+    .main_right{
+        order: 2;
+    }
+
+
+
+
+    
+.main_left h1{
+    font-size: 28px;
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    width:100%;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main_left{
+    width: 100%;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main_right h1{
+    font-size: 28px;
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    line-height:0px;
+    letter-spacing: 0.2em;
+    width: 100%;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main_banner{
+    height: 900px;
+    width: 100%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #85CBE9 17.33%);
+}
+
+
+.main_center_relative::before{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    display: none;
+    
+}
+
+.main_instagram{
+    right: 2.2%;
+    bottom: 20%;
+    display: none;
+    position: absolute;
+}
+
+
+
+
+.main_center_relative div img:nth-child(1){
+    left:-250px;
+    z-index: 10;
+    width: 350px;
+    height: 504px;
+    top: 50px;
+    object-fit: cover;
+}
+
+.main_center_relative div img:nth-child(2){
+    width: 291px;
+    top: 30px;
+    height: 544px;
+    right: -220px;
+}
+
+
+
+
+.main_center_relative .bubble_first{
+    position: absolute;
+    left: 5%;
+    width: 40px;
+    top: 25%;
+}
+.main_center_relative .bubble_second{
+    position: absolute;
+    left: 11%;
+    width: 80px;
+    top: 25%;
+}
+
+.main_center_relative .bubble_third{
+    position: absolute;
+    left: 5%;
+    width: 120px;
+    top: 35%;
+}
+.main_center_relative .bubble_fourth{
+    position: absolute;
+    left: 8%;
+    width: 50px;
+    bottom: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+.main_center_relative .bubble_five{
+    position: absolute;
+    right: 5%;
+    width:50px;
+    top: 25%;
+}
+.main_center_relative .bubble_six{
+    position: absolute;
+    right: 12%;
+    width:40px;
+    top: 28%;
+}
+
+.main_center_relative .bubble_seven{
+    position: absolute;
+    right: 15%;
+    width: 100px;
+    top: 35%;
+}
+
+.main_center_relative .bubble_eight{
+    position: absolute;
+    right: 15%;
+    width: 70px;
+    bottom: 45%;
+}
+
+.main_frame{
+    position: absolute;
+    right: 25%;
+    bottom: 40%;
+    width: 115px;
+}
+
+
+
+.main_wave{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    bottom: -35%;
+    left: 0;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and   (max-width:1024px)  {
+   
+  
+    .main_inline{
+        display: flex;
+        justify-content: unset;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        text-align: center ;
+    }
+    .main_left{
+        order: 1;
+    }
+
+    .main_center{
+        order: 3;
+    }
+    .main_right{
+        order: 2;
+    }
+
+
+
+
+    
+.main_left h1{
+    font-size: 28px;
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    width:100%;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main_left{
+    width: 100%;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main_right h1{
+    font-size: 28px;
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    line-height:0px;
+    letter-spacing: 0.2em;
+    width: 100%;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main_banner{
+    height: 1000px;
+    width: 100%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #85CBE9 17.33%);
+}
+
+
+.main_center_relative::before{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    display: none;
+    
+}
+
+.main_instagram{
+    right: 2.2%;
+    bottom: 20%;
+    display: none;
+    position: absolute;
+}
+
+
+
+
+.main_center_relative div img:nth-child(1){
+    left:-330px;
+    z-index: 10;
+    width: 450px;
+    height: 644px;
+    object-fit: cover;
+    top: 0px;
+    animation: unset;
+
+}
+
+.main_center_relative div img:nth-child(2){
+    width: 391px;
+    top: 30px;
+    height: 544px;
+    object-fit: cover;
+    right: -310px;
+    animation: unset;
+}
+
+
+
+
+.main_center_relative .bubble_first{
+    position: absolute;
+    left: 5%;
+    width: 40px;
+    animation: unset;
+
+    top: 65%;
+}
+.main_center_relative .bubble_second{
+    position: absolute;
+    left: 11%;
+    width: 90px;
+    top: 65%;
+    animation: unset;
+}
+
+.main_center_relative .bubble_third{
+    position: absolute;
+    left: 5%;
+    width: 140px;
+    animation: unset;
+    
+    top: 75%;
+}
+.main_center_relative .bubble_fourth{
+    position: absolute;
+    left: 8%;
+    width: 50px;
+    animation: unset;
+    bottom: -30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+.main_center_relative .bubble_five{
+    position: absolute;
+    right: 5%;
+    animation: unset;
+
+    width:50px;
+    top: 63%;
+}
+.main_center_relative .bubble_six{
+    position: absolute;
+    right: 12%;
+    animation: unset;
+
+    width:40px;
+    top: 67%;
+}
+
+.main_center_relative .bubble_seven{
+    position: absolute;
+    right: 10%;
+    width: 130px;
+    animation: unset;
+
+    top: 75%;
+}
+
+.main_center_relative .bubble_eight{
+    position: absolute;
+    right: 15%;
+    width: 90px;
+    bottom: -35%;
+}
+
+.main_frame{
+    position: absolute;
+    right: 15%;
+    bottom: -70%;
+    object-fit: cover;
+    width: 155px;
+}
+
+
+
+.main_wave{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    bottom: -20%;
+    left: 0;
+}
+
+
+
+}
+
+
+
+
+
+
+
+/* 
 
 @media  only screen and (max-width:1000px) {
     .main_left{
@@ -654,12 +1074,16 @@
 
 
 
-}
+} */
 
 
 
 
-@media screen and   (max-width:1024px)  and (max-height:1366px) {
+
+
+
+
+@media  (max-width:768px) and (max-height:1024px){
    
   
     .main_inline{
@@ -720,223 +1144,7 @@
 }
 
 .main_banner{
-    height: 1200px;
-    width: 100%;
-    background: linear-gradient(180deg, #FFFFFF 0%, #85CBE9 17.33%);
-}
-
-
-.main_center_relative::before{
-    content: '';
-    position: absolute;
-    width: 0px;
-    height: 0px;
-    display: none;
-    
-}
-
-.main_instagram{
-    right: 2.2%;
-    bottom: 20%;
-    display: none;
-    position: absolute;
-}
-
-
-
-
-.main_center_relative div img:nth-child(1){
-    left:-330px;
-    z-index: 10;
-    width: 450px;
-    height: 644px;
-    object-fit: cover;
-    top: 0px;
-    animation: unset;
-
-}
-
-.main_center_relative div img:nth-child(2){
-    width: 391px;
-    top: 30px;
-    height: 544px;
-    object-fit: cover;
-    right: -310px;
-    animation: unset;
-}
-
-
-
-
-.main_center_relative .bubble_first{
-    position: absolute;
-    left: 5%;
-    width: 40px;
-    animation: unset;
-
-    top: 27%;
-}
-.main_center_relative .bubble_second{
-    position: absolute;
-    left: 11%;
-    width: 90px;
-    top: 27%;
-    animation: unset;
-}
-
-.main_center_relative .bubble_third{
-    position: absolute;
-    left: 5%;
-    width: 140px;
-    animation: unset;
-    
-    top: 35%;
-}
-.main_center_relative .bubble_fourth{
-    position: absolute;
-    left: 8%;
-    width: 50px;
-    animation: unset;
-    bottom: 40%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-.main_center_relative .bubble_five{
-    position: absolute;
-    right: 5%;
-    animation: unset;
-
-    width:50px;
-    top: 23%;
-}
-.main_center_relative .bubble_six{
-    position: absolute;
-    right: 12%;
-    animation: unset;
-
-    width:40px;
-    top: 25%;
-}
-
-.main_center_relative .bubble_seven{
-    position: absolute;
-    right: 10%;
-    width: 130px;
-    animation: unset;
-
-    top: 35%;
-}
-
-.main_center_relative .bubble_eight{
-    position: absolute;
-    right: 15%;
-    width: 90px;
-    bottom: 35%;
-}
-
-.main_frame{
-    position: absolute;
-    right: 20%;
-    bottom: 25%;
-    object-fit: cover;
-    width: 205px;
-}
-
-
-
-.main_wave{
-    position: absolute;
-    width: 100%;
-    height: 60%;
-    bottom: -20%;
-    left: 0;
-}
-
-
-
-}
-
-
-
-
-
-
-
-@media  (max-width:768px) {
-   
-  
-    .main_inline{
-        display: flex;
-        justify-content: unset;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-        height: 50vh;
-        text-align: center ;
-    }
-    .main_left{
-        order: 1;
-    }
-
-    .main_center{
-        order: 3;
-    }
-    .main_right{
-        order: 2;
-    }
-
-
-
-
-    
-.main_left h1{
-    font-size: 28px;
-    font-weight: 900;
-    font-family: 'TT Hazelnuts';
-    line-height: 20px;
-    letter-spacing: 0.2em;
-    width:100%;
-    font-style: normal;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-}
-
-.main_left{
-    width: 85%;
-    margin-left: auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-.main_right h1{
-    font-size: 28px;
-    font-weight: 900;
-    font-family: 'TT Hazelnuts';
-    line-height:0px;
-    letter-spacing: 0.2em;
-    width: 100%;
-    font-style: normal;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-}
-
-.main_banner{
-    height: 950px;
+    height: 900px;
     width: 100%;
     background: linear-gradient(180deg, #FFFFFF 0%, #85CBE9 17.33%);
 }
@@ -983,13 +1191,13 @@
     position: absolute;
     left: 5%;
     width: 40px;
-    top: 37%;
+    top: 35%;
 }
 .main_center_relative .bubble_second{
     position: absolute;
     left: 11%;
     width: 80px;
-    top: 37%;
+    top: 35%;
 }
 
 .main_center_relative .bubble_third{
@@ -1002,7 +1210,7 @@
     position: absolute;
     left: 8%;
     width: 50px;
-    bottom: 30%;
+    bottom: 25%;
 }
 
 
@@ -1023,33 +1231,235 @@
     position: absolute;
     right: 5%;
     width:50px;
-    top: 28%;
+    top: 35%;
 }
 .main_center_relative .bubble_six{
     position: absolute;
     right: 12%;
     width:40px;
-    top: 34%;
+    top: 38%;
 }
 
 .main_center_relative .bubble_seven{
     position: absolute;
     right: 15%;
     width: 100px;
-    top: 40%;
+    top: 45%;
 }
 
 .main_center_relative .bubble_eight{
     position: absolute;
     right: 15%;
     width: 70px;
-    bottom: 30%;
+    bottom: 25%;
 }
 
 .main_frame{
     position: absolute;
     right: 20%;
-    bottom: 18%;
+    bottom: 20%;
+    width: 115px;
+}
+
+
+
+.main_wave{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    bottom: -35%;
+    left: 0;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:768px) {
+   
+  
+    .main_inline{
+        display: flex;
+        justify-content: unset;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        text-align: center ;
+    }
+    .main_left{
+        order: 1;
+    }
+
+    .main_center{
+        order: 3;
+    }
+    .main_right{
+        order: 2;
+    }
+
+
+
+
+    
+.main_left h1{
+    font-size: 28px;
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    width:100%;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main_left{
+    width: 100%;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main_right h1{
+    font-size: 28px;
+    font-weight: 900;
+    font-family: 'TT Hazelnuts';
+    line-height:0px;
+    letter-spacing: 0.2em;
+    width: 100%;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main_banner{
+    height: 900px;
+    width: 100%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #85CBE9 17.33%);
+}
+
+
+.main_center_relative::before{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    display: none;
+    
+}
+
+.main_instagram{
+    right: 2.2%;
+    bottom: 20%;
+    display: none;
+    position: absolute;
+}
+
+
+
+
+.main_center_relative div img:nth-child(1){
+    left:-250px;
+    z-index: 10;
+    width: 350px;
+    height: 504px;
+    top: 50px;
+}
+
+.main_center_relative div img:nth-child(2){
+    width: 291px;
+    top: 30px;
+    height: 544px;
+    right: -220px;
+}
+
+
+
+
+.main_center_relative .bubble_first{
+    position: absolute;
+    left: 5%;
+    width: 40px;
+    top: 65%;
+}
+.main_center_relative .bubble_second{
+    position: absolute;
+    left: 11%;
+    width: 80px;
+    top: 65%;
+}
+
+.main_center_relative .bubble_third{
+    position: absolute;
+    left: 5%;
+    width: 120px;
+    top: 75%;
+}
+.main_center_relative .bubble_fourth{
+    position: absolute;
+    left: 8%;
+    width: 50px;
+    bottom: -25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+.main_center_relative .bubble_five{
+    position: absolute;
+    right: 5%;
+    width:50px;
+    top: 65%;
+}
+.main_center_relative .bubble_six{
+    position: absolute;
+    right: 12%;
+    width:40px;
+    top: 68%;
+}
+
+.main_center_relative .bubble_seven{
+    position: absolute;
+    right: 15%;
+    width: 100px;
+    top: 75%;
+}
+
+.main_center_relative .bubble_eight{
+    position: absolute;
+    right: 15%;
+    width: 70px;
+    bottom: -35%;
+}
+
+.main_frame{
+    position: absolute;
+    right: 20%;
+    bottom: -50%;
     width: 115px;
 }
 
@@ -1081,22 +1491,10 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-@media  (max-width:495px) {
+@media  (max-width:505px) {
     
     .main_banner{
-        height: 110vh;
+        height: 130vh;
         width: 100%;
         background: linear-gradient(180deg, #FFFFFF 0%, #85CBE9 17.33%);
     }
@@ -1108,7 +1506,7 @@
         align-items: center;
         flex-direction: column;
         width: 100%;
-        height: 70vh;
+        height: 80vh;
     }
 
 
@@ -1161,26 +1559,26 @@
         position: absolute;
         left: 5%;
         width: 40px;
-        top: 37%;
+        top: 47%;
     }
     .main_center_relative .bubble_second{
         position: absolute;
         left: 7%;
         width: 60px;
-        top: 44%;
+        top: 54%;
     }
 
     .main_center_relative .bubble_third{
         position: absolute;
         left: 7%;
         width: 80px;
-        top: 53%;
+        top: 63%;
     }
     .main_center_relative .bubble_fourth{
         position: absolute;
         left: 8%;
         width: 50px;
-        bottom: 20%;
+        bottom: -15%;
     }
 
     
@@ -1189,20 +1587,20 @@
     position: absolute;
     right: 2%;
     width:40px;
-    top: 45%;
+    top: 55%;
 }
 .main_center_relative .bubble_six{
     position: absolute;
     right: 9%;
     width:30px;
-    top: 49%;
+    top: 59%;
 }
 
 .main_center_relative .bubble_seven{
     position: absolute;
     right: 5%;
     width: 60px;
-    top: 59%;
+    top: 79%;
 }
 
 .main_center_relative .bubble_eight{
@@ -1219,7 +1617,7 @@
 .main_frame{
     position: absolute;
     right: 10%;
-    bottom: 10%;
+    bottom: -25%;
     width: 115px;
 }
 
@@ -1251,7 +1649,7 @@
 @media  (max-width:425px) {
       
     .main_banner{
-        height: 100vh;
+        height: 110vh;
         width: 100%;
         
     }
@@ -1263,7 +1661,7 @@
         align-items: center;
         flex-direction: column;
         width: 100%;
-        height: 70vh;
+        height: 80vh;
     }
 
 
@@ -1280,7 +1678,7 @@
         text-transform: uppercase;
     }
     .main_left{
-        width: 75%;
+        width: 100%;
     }
     .main_right h1{
         font-size: 20px;
@@ -1387,6 +1785,14 @@
     object-fit: cover;
     left: 0;
 }
+.main_frame{
+    position: absolute;
+    right: 10%;
+    bottom: -5%;
+    width: 115px;
+    z-index: 10;
+}
+
 
 }   
 

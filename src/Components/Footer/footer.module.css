@@ -156,7 +156,16 @@ footer{
 
 
 
-@media  (max-width:768px) {
+
+
+
+
+
+
+
+
+
+@media  (max-width:1058px) {
     .footer_banner{
         width: 90%;
     }
@@ -220,7 +229,7 @@ footer{
 /* MOBILE */
 
 
-@media  (max-width:495px) {
+@media  (max-width:774px) {
     .footer_form{
         position: unset;
     }
