@@ -170,7 +170,7 @@ export const ruLangData = {
              prostyn:'Как стирать простыни',
              lifehack:'Лайфхаки стирки',
              deepclear:'Глубокая чистка стиральной машины',
-             high:"Высокая эффективность продукции «Багтлы замана",
+             high:"Высокая эффективность продукции «Багтлы замана»",
              method:'Средства для стирки'
          },
 
@@ -428,7 +428,7 @@ export const enLangData = {
   
     AboutPage:{
         bannerTitle:'we care about cleanliness',
-        bannerText:'Economic Society “Bagtli Zamana” founded in 2013 and started production of synthetic detergents and beauty soap in 2019.',
+        bannerText:'Economic Society “Bagtli zamana” founded in 2013 and started production of synthetic detergents and beauty soap in 2019.',
         bannerText2:'At the present time the enterprise is one of the leading manufacturers of household chemicals in Turkmenistan.',
         bannerText3:"  The main activity of the enterprise is the production of detergents, bleaching agents and beauty soaps.",
         blueTitle:' THE ENTERPRIsE IS THE ONLY MANUFACTURER IN THE COUNTRY THAT USES THE "TOWER METHOD" IN THE PRODUCTION OF WASHING DETERGENTS ACCORDING TO ITALIAN TECHNOLOGY. ',
@@ -480,7 +480,7 @@ export const enLangData = {
         formulaText2:'The entire line of detergents contains components that protect the structure of fabrics from color washout. Easily soluble in water of any hardness.',
         productTitle:'OUR PRODUCTs',
         orderTitle:'Worldwide delivery',
-        orderText:'Economic society "Bagtly Zamana" carries out wholesale sales of products all over the world.',
+        orderText:'Economic society "Bagtly zamana" carries out wholesale sales of products all over the world.',
         orderText2:'For the terms of the minimum batch for ordering in bulk and cost, please contact us.',
         orderBtn:'contact us    ',
         needToKnow:'GOOD TO KNOW',
@@ -558,8 +558,8 @@ export const enLangData = {
             prostyn:'How to wash the bed sheets',
             lifehack:'Laundry lifehacks',
             deepclear:'Deep cleaning of the washing machine',
-            high:"High efficiency of products of Bagtly Zamana",
-            method:'Detergents'
+            high:"High efficiency of “Bagtly zamana” products",
+            method:'Laundry detergents'
         },
         planet:'img/planet/enText.png',
         medal:'img/medal/enText.png'
@@ -621,7 +621,7 @@ export const enLangData = {
         prostyn:'How to wash the bed sheets',
         method:'Laundry detergents',
         deepClear:'Deep cleaning of the washing machine',
-        highZamana:'High efficiency of "Bagtly Zamana" products',
+        highZamana:'High efficiency of "Bagtly zamana" products',
         lifeHack:'Laundry lifehacks',
         more:'Deatils`'
     },

@@ -10,6 +10,9 @@ import { useEffect } from 'react'
 import {useSelector} from 'react-redux'
 import { Link } from 'react-router-dom'
 const Main = () =>{
+    const lang = localStorage.getItem('aknurLang')
+
+   
     const {selectedLang:{Mains}} = useSelector(s => s.Lang)
     useEffect(() => {
         window.scrollTo({
@@ -48,7 +51,7 @@ const Main = () =>{
                             </div>
                         </div>
                         <div className={cls.main_right}>
-                            <h1>{Mains.mainRight}</h1>
+                            <h1 style={lang !== 'RU' ? {width:'80%'} : console.log('Yes')}>{Mains.mainRight}</h1>
                         </div>
                     </div>
                 </div>
