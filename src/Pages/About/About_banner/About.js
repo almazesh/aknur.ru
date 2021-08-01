@@ -31,7 +31,7 @@ const About = () =>{
         e.preventDefault()
         if(name !== '' && lastName !== '' && email !== '' && code !== '' && number !== '' && country !== '' && town !== '' && feed !== ''){
                 if(check){
-                    fetch('http://530753-cq66777.tmweb.ru:8080/api/becomedealer',{
+                    fetch('http://530753-cq66777.tmweb.ru:8080/api/feedback',{
                         method:'POST',
                         headers:{
                             'Content-Type':'application/json'
@@ -176,7 +176,7 @@ const About = () =>{
                                     <input type="text" placeholder={Contact.inputLastName} onChange={e => setLastName(e.target.value)} value={lastName}/>
                                 </div>  
                                 <div className='w-hun'>
-                                    <input type="text" placeholder="E-mail"  onChange={e => setEmail(e.target.value)} value={email}/>
+                                    <input type="text" placeholder="E-mail"  required onChange={e => setEmail(e.target.value)} value={email}/>
                                 </div> 
                                 <div className='input_inline'>
                                     <select onChange={e => setCode(e.target.value)} defaultValue={code}>

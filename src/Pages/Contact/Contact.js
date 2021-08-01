@@ -4,7 +4,6 @@ import InputMask from 'react-input-mask'
 import {  useSelector} from 'react-redux'
 const Contact = () =>{
     const [name , setName] = useState('')
-    const [lastName , setLastName] = useState('')
     const [email , setEmail] = useState('')
     const [code , setCode] = useState('+7')
     const [number , setNumber] = useState('')
@@ -23,7 +22,7 @@ const Contact = () =>{
    
     const formSubmit =  e => {
         e.preventDefault()
-        if(name !== '' && lastName !== '' && email !== '' && code !== '' && number !== '' && country !== '' && town !== '' && feed !== ''){
+        if(name !== '' && email !== '' && code !== '' && number !== '' && country !== '' && town !== '' && feed !== ''){
                 if(check){
                     fetch('http://530753-cq66777.tmweb.ru:8080/api/becomedealer',{
                         method:'POST',
@@ -31,8 +30,7 @@ const Contact = () =>{
                             'Content-Type':'application/json'
                         },
                         body:JSON.stringify({
-                            firstName:name,
-                            lastName:lastName,
+                            name:name,
                             internationalCode:code,
                             phoneNumber:number,
                             email:email,
@@ -47,7 +45,6 @@ const Contact = () =>{
                             alert('Отправлено успешно!')
                             setCheck(false)
                             setName('')
-                            setLastName('')
                             setCode('+7')
                             setNumber('')
                             setEmail('')
@@ -81,10 +78,6 @@ const Contact = () =>{
                         <div className={cls.max_input}>
                             <input type='text' placeholder={Contact.inputName} onChange={e => setName(e.target.value)} value={name} />
                         </div>
-                        <div className={cls.max_input}>
-                            <input type='text' placeholder={Contact.inputLastName} onChange={e => setLastName(e.target.value)} value={lastName}/>
-                        </div>
-                       
                         <div className={cls.max_input}>
                             <input type='email' placeholder='E-mail' onChange={e => setEmail(e.target.value)} value={email}/>
                         </div>
