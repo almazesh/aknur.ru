@@ -36,7 +36,8 @@ export const ruLangData = {
         becomeDeal:'Стать дилером',
         num1:' +99312 576239',
         num2:'  +99312 576240',
-        gmail:'  info@bagtlyzamana.com'
+        gmail:'  info@bagtlyzamana.com',
+        underInput:'подписаться на новости и акции компании'
     },
     AboutPage:{
         bannerTitle:'МЫ ЗАБОТИМСЯ О ЧИСТОТЕ',
@@ -66,7 +67,9 @@ export const ruLangData = {
     Contact:{
         contactTitle:'СТАТЬ ДИЛЕРОМ',
         contactText:'Для того, чтобы стать дилером, отправьте нам заявку, заполнив форму ниже.',
+        name:'ФИО',
         inputName:'Имя',
+        company:'Компания',
         inputLastName:'Фамилия',
         inputNumber:'Номер телефона',
         inputCountry:'Страна',
@@ -423,7 +426,9 @@ export const enLangData = {
         becomeDeal:'Become a dealer',
         num1:' +99312 576239',
         num2:'  +99312 576240',
-        gmail:'  info@bagtlyzamana.com'
+        gmail:'  info@bagtlyzamana.com',
+        underInput:'subscribe for news and promotions'
+
     },
   
     AboutPage:{
@@ -458,9 +463,11 @@ export const enLangData = {
     Contact:{
         contactTitle:'Become dealer',
         contactText:'To become a dealer, send us an application by filling out the form below',
+        company:'Company',
+        name:'Name',
         inputName:'Name',
         inputLastName:'Last name',
-        inputNumber:'Number',
+        inputNumber:'Phone Number',
         inputCountry:'Country',
         inputCity:'City',
         text:'Text',
@@ -551,7 +558,7 @@ export const enLangData = {
             soapGranat:'toilet soap - pomegranate',
             soapLavanda:'toilet soap - lavender',
 
-            more:' details'
+            more:' Details'
         },
         goodFor:{
             rightClear:'All about proper laundry',
@@ -802,6 +809,8 @@ export const tmLangData = {
         Toilet:'Päkize gözellik sabyny',
         Oxygen:'Kislorodly agardyjysy',
         becomeDeal:'Diler bolmak',
+        underInput:' kompaniýanyň täzeliklerine we aksiýalaryna ýazylmak'
+
     },
     AboutPage:{
         bannerTitle:'Biz arassaçylygyň aladasyny edýäris',
@@ -839,7 +848,9 @@ export const tmLangData = {
     Contact:{
         contactTitle:'Diler boluň',
         contactText:'Diler bolmak üçin aşakdaky formany dolduryp, anketa iberiň.',
+        company:'Kompaniýa',
         inputName:'Ady',
+        name:'F.A.A a',
         inputLastName:'Familiýasy',
         inputNumber:'Telefon belgisi',
         inputCountry:'yurt',
@@ -912,11 +923,11 @@ export const tmLangData = {
         aknurText6:'kir ýuwujy - 3kg.        ',
         aknurText3:'kir ýuwujy - 3kg.        ',
         
-        ainur:'Aý nur awtomat',
+        ainur:'aý nur elde ýuwmak üçin',
         ainurText9:'kir ýuwujy - 9kg.',
         ainurText3:' kir ýuwujy - 3kg.',
 
-        ainurAw:'aý nur elde ýuwmak üçin',
+        ainurAw:'Aý nur awtomat ',
         color:'ak nur color',
         colorText6:'kir ýuwujy - 6kg.',
 
@@ -943,9 +954,9 @@ export const tmLangData = {
         rightClear:'Kiri dogry ýuwmagyň düzgünleri barada ',
         prostyn:'Ýorgan-düşek daşlyklaryny nähili ýuwmaly',
         lifehack:'Kir ýuwmagyň syrlary',
-        deepclear:'Kir ýuwujy maşyny çuňňur arassalamak',
-        high:"Bagtly Zamanyň önümleriniň ýokary netijeliligi",
-        method:'Erguwujy serişdeler'
+        deepclear:'Kir ýuwujy maşyny  arassalamak',
+        high:'"Bagtly zamananyň" önümleriniň  ýokary netijeliligi ',
+        method:'Kir ýuwujy serişdeler'
     }
 
     },

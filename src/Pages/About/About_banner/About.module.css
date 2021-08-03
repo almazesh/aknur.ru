@@ -202,13 +202,13 @@
     position: absolute;
 }
 .ainur_img{
-    right: 0;
+    right: -50px;
     width: 500px;
     height: 740px;
     animation: anim infinite 7s linear;
 }
 .aknur_img{
-    right: 200px;
+    right: 150px;
     width: 458px;
     height: 740px;
     animation: anim infinite 5s linear;

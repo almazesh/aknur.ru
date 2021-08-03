@@ -30,12 +30,15 @@ const Footer = () =>{
             alert('Заполните поле!')
         }
     }
+    
     return (
         <>
             <footer>
                 <div className={cls.footer_banner}>
                     <div className={cls.footer_logo}>
-                        <img alt="" src={Frame}/>
+                        <Link to='/'>
+                            <img alt="" src={Frame} />
+                        </Link>
                     </div>
                     <div className={cls.footer_inline}>
                         <div className={cls.footer_left}>
@@ -43,6 +46,7 @@ const Footer = () =>{
                                 <form className={cls.footer_form} onSubmit={submitEmail}>
                                     <div>
                                         <input type="email" placeholder="e-mail" onChange={e => setEmail(e.target.value)}/>
+                                        <label> {footer.underInput}</label>
                                         <button className="fas fa-chevron-right" type="submit"></button>
                                     </div>
                                 </form>

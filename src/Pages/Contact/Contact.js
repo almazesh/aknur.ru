@@ -4,7 +4,7 @@ import InputMask from 'react-input-mask'
 import {  useSelector} from 'react-redux'
 const Contact = () =>{
     const [name , setName] = useState('')
-    const [lastName , setLastName] = useState('')
+    const [company , setCompany] = useState('')
     const [email , setEmail] = useState('')
     const [code , setCode] = useState('+7')
     const [number , setNumber] = useState('')
@@ -23,7 +23,7 @@ const Contact = () =>{
    
     const formSubmit =  e => {
         e.preventDefault()
-        if(name !== '' && lastName !== '' && email !== '' && code !== '' && number !== '' && country !== '' && town !== '' && feed !== ''){
+        if(name !== '' && company !== '' && email !== '' && code !== '' && number !== '' && country !== '' && town !== '' && feed !== ''){
                 if(check){
                     fetch('http://530753-cq66777.tmweb.ru:8080/api/becomedealer',{
                         method:'POST',
@@ -31,8 +31,8 @@ const Contact = () =>{
                             'Content-Type':'application/json'
                         },
                         body:JSON.stringify({
-                            firstName:name,
-                            lastName:lastName,
+                            name:name,
+                            company:company,
                             internationalCode:code,
                             phoneNumber:number,
                             email:email,
@@ -46,8 +46,8 @@ const Contact = () =>{
                             console.log(res)
                             alert('Отправлено успешно!')
                             setCheck(false)
+                            setCompany('')
                             setName('')
-                            setLastName('')
                             setCode('+7')
                             setNumber('')
                             setEmail('')
@@ -79,24 +79,19 @@ const Contact = () =>{
                 <div className={cls.contact_form}>
                     <form className={cls.form} onSubmit={formSubmit}>
                         <div className={cls.max_input}>
-                            <input type='text' placeholder={Contact.inputName} onChange={e => setName(e.target.value)} value={name} />
+                            <input type='text' placeholder={Contact.name} onChange={e => setName(e.target.value)} value={name} />
                         </div>
                         <div className={cls.max_input}>
-                            <input type='text' placeholder={Contact.inputLastName} onChange={e => setLastName(e.target.value)} value={lastName}/>
+                            <input type='text' placeholder={Contact.company } onChange={e => setCompany(e.target.value)} value={company} />
                         </div>
-                       
                         <div className={cls.max_input}>
                             <input type='email' placeholder='E-mail' onChange={e => setEmail(e.target.value)} value={email}/>
                         </div>
                         <div className={cls.contact_inline_input}>
                             <div>
                                 <select defaultValue={code} className={cls.international} onChange={e=> setCode(e.target.value)}>
-                                    
-                                    <option value="+7">
-                                        +7
-                                    </option>
-                                    <option value="+996">
-                                        +996
+                                    <option value="+">
+                                        +
                                     </option>
                                 </select>
                             </div>

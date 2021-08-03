@@ -69,6 +69,7 @@
 ::-webkit-input-placeholder{color:#89CDEA;
     ;}
 
+    ::-webkit-keygen-select{color: #043480 !important;}
 .input_inline{
     width: 99% !important;
     display: flex;

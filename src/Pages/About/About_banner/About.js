@@ -21,7 +21,7 @@ const About = () =>{
     const [name , setName] = useState('')
     const [lastName , setLastName] = useState('')
     const [email , setEmail] = useState('')
-    const [code , setCode] = useState('+7')
+    const [code , setCode] = useState('+')
     const [number , setNumber] = useState('')
     const [country , setCountry] = useState('')
     const [town , setTown] = useState('')
@@ -31,7 +31,7 @@ const About = () =>{
         e.preventDefault()
         if(name !== '' && lastName !== '' && email !== '' && code !== '' && number !== '' && country !== '' && town !== '' && feed !== ''){
                 if(check){
-                    fetch('http://530753-cq66777.tmweb.ru:8080/api/becomedealer',{
+                    fetch('http://530753-cq66777.tmweb.ru:8080/api/feedback',{
                         method:'POST',
                         headers:{
                             'Content-Type':'application/json'
@@ -54,7 +54,7 @@ const About = () =>{
                             setCheck(false)
                             setName('')
                             setLastName('')
-                            setCode('+7')
+                            setCode('+')
                             setNumber('')
                             setEmail('')
                             setCountry('')
@@ -176,19 +176,14 @@ const About = () =>{
                                     <input type="text" placeholder={Contact.inputLastName} onChange={e => setLastName(e.target.value)} value={lastName}/>
                                 </div>  
                                 <div className='w-hun'>
-                                    <input type="text" placeholder="E-mail"  onChange={e => setEmail(e.target.value)} value={email}/>
+                                    <input type="text" placeholder="E-mail"  required onChange={e => setEmail(e.target.value)} value={email}/>
                                 </div> 
                                 <div className='input_inline'>
                                     <select onChange={e => setCode(e.target.value)} defaultValue={code}>
                                         <opiton value='+'>
                                             +
                                         </opiton >
-                                        <option value="+7">
-                                            +7
-                                        </option>
-                                        <option value='+996'>
-                                            +996
-                                        </option>
+                                       
                                     </select>
                                     <input type='number' placeholder={Contact.inputNumber} onChange={e => setNumber(e.target.value)} value={number}/>
                                 </div> 

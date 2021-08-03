@@ -101,8 +101,7 @@ footer{
     position: relative;
 
 }
-.footer_form div::before{
-    content: 'подписаться на новости и акции компании';
+.footer_form div label{
     position: absolute;
     font-size: 12px;
     font-weight: 300;

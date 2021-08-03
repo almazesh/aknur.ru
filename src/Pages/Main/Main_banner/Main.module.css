@@ -213,14 +213,6 @@
 }
 
 
-.main_wave{
-    position: absolute;
-    width: 100%;
-    height: 80%;
-    bottom: -65%;
-    left: 0;
-}
-
 
 
 
@@ -259,7 +251,7 @@
     }
     
     .main_content{
-        width: 98%;
+        width: 95%;
         height: 100%;
         display: flex;
         align-items: center;
@@ -287,7 +279,7 @@
         font-family: 'TT Hazelnuts';
         line-height: 46px;
         letter-spacing: 0.2em;
-        width: 438px;
+        width: 308px;
         font-style: normal;
         text-align: center;
         color: white;
@@ -295,7 +287,7 @@
     }
 
     .main_center_relative div img:nth-child(1){
-        left:-280px;
+        left:-350px;
         z-index: 10;
         width: 413px;
         height: 583px;
@@ -306,7 +298,7 @@
         width: 343px;
         top: 30px;
         height: 623px;
-        right: -250px;
+        right: -200px;
     }
 
 
@@ -396,13 +388,7 @@
     width: 20px;
     position: absolute;
 }
-.main_wave{
-    position: absolute;
-    width: 100%;
-    height: 70%;
-    bottom: -68%;
-    left: 0;
-}
+
 
 
 

@@ -65,7 +65,7 @@ const Formula = () =>{
         e.preventDefault()
         if(name !== '' && lastName !== '' && email !== '' && code !== '' && number !== '' && country !== '' && town !== '' && feed !== ''){
                 if(check){
-                    fetch('http://530753-cq66777.tmweb.ru:8080/api/becomedealer',{
+                    fetch('http://530753-cq66777.tmweb.ru:8080/api/feedback',{
                         method:'POST',
                         headers:{
                             'Content-Type':'application/json'
@@ -636,12 +636,7 @@ const Formula = () =>{
                                         <opiton value='+'>
                                             +
                                         </opiton >
-                                        <option value="+7">
-                                            +7
-                                        </option>
-                                        <option value='+996'>
-                                            +996
-                                        </option>
+                                        
                                     </select>
                                     <input type='number' placeholder={Contact.inputNumber} onChange={e => setNumber(e.target.value)} value={number}/>
                                 </div> 
