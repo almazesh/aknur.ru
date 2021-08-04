@@ -122,7 +122,7 @@ const Footer = () =>{
                                         info@bagtlyzamana.com
                                    </>
                                </li>
-                               <Link ><h3 className={cls.footer_step}>{footer.articles}</h3></Link>
+                               <Link to='/article'><h3 className={cls.footer_step}>{footer.articles}</h3></Link>
                             </ul>
                         </div>
                     </div>

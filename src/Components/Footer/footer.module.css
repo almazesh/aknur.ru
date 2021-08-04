@@ -199,6 +199,14 @@ footer{
         font-size: 10px;
         line-height: 20px;
     }
+    .unact  li {
+        font-weight: 400;
+        font-size: 10px;
+        font-family: 'Montserrat';
+        color: white;
+        text-decoration: none;
+        line-height: 250%;
+    }
     footer{
         position: relative;
     }

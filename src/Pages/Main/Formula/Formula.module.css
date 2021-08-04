@@ -418,6 +418,7 @@ body{
     color: #043480;
     font-size: 38px;
     font-weight: 900;
+    width: 70%;
     font-family: 'TT Hazelnuts';
     letter-spacing: 0.2em;
 
@@ -427,7 +428,7 @@ body{
 .order_inline{
     width: 80%;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 50px;
     align-items: center;
     display: flex;
     justify-content: space-between;

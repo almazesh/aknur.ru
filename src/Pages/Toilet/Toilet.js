@@ -19,8 +19,7 @@ import granatBubble from '../../assets/Soap product/granatBubble.png'
 import peachBubble from '../../assets/Soap product/peachBubble.png'
 import { useState } from 'react'
 import Combo from '../../assets/Soap product/bubbleCom.png'
-import {useSelector} from 'react-redux'
-
+import {useSelector} from 'react-redux' 
 
 const Toilet = () =>{
     const {selectedLang:{Soap}} = useSelector(s => s.Lang)
@@ -29,34 +28,28 @@ const Toilet = () =>{
         {
             id: 1,
             original: LavanderBtn,  
-            mainPicture: LavanderCard,
+            mainPicture: Soap.soapLavanda,
             thumbnail: LavanderBubble
             
         },
         {
             id: 2,
             original: MintBtn,
-            mainPicture: MintCard,
+            mainPicture: Soap.soapMint,
             thumbnail:MintBubble,
-            circle:Green,
-            circleText:Soap.circleMint
-    
-            
         },
         {
             id: 3,
             original: GarnetBtn,
-            mainPicture:GarnetCard,
+            mainPicture:Soap.soapGranat,
             thumbnail:granatBubble
         },
         {
             id: 4,
             original: PeachBtn,
-            mainPicture:PeachCard,
+            mainPicture:Soap.soapPersik,
             thumbnail:peachBubble,
     
-            circle:Pink,
-            circleText:Soap.circleGranat
     
         }
     ]

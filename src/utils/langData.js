@@ -17,7 +17,7 @@ export const ruLangData = {
             aknur:'Стиральный порошок Ак Нур',
             ainur:'Стиральный порошок Ай Нур',
             soap:'Туалетное мыло Пякизе',
-            otbel:'Кислородный отбеливаетель'
+            otbel:'Кислородный отбеливатель'
         }
     },
     footer:{
@@ -223,8 +223,11 @@ export const ruLangData = {
         local:'УСЛОВИЯ ХРАНЕНИЯ:',
         localText:'Хранить при температуре не ниже -50 С и влажности не более 75%',
 
-        circleMint:'Мята',
-        circleGranat:'Гранат'
+        soapMint:'./img/Soap/Mint/MintRu.png',
+        soapGranat:'./img/Soap/Granat/GranatRu.png',
+        soapPersik:'./img/Soap/Persik/PersikRu.png',
+        soapLavanda:'./img/Soap/Lavanda/LavandaRu.png',
+
     },
     Otbel:{
         otbelTitle:'КИСЛОРОДНЫЙ ОТБЕЛИВАТЕЛЬ АКНУР OXI ACTION 500 ГР.',
@@ -609,8 +612,11 @@ export const enLangData = {
         local:' STORAGE CONDITIONS:',
         localText:'Store at a temperature not lower than -5°С and humidity not more than 75%. ',
 
-        circleMint:'Mint',
-        circleGranat:'Granat'
+        soapMint:'./img/Soap/Mint/MintEn.png',
+        soapGranat:'./img/Soap/Granat/GranatEn.png',
+        soapPersik:'./img/Soap/Persik/PersikEn.png',
+        soapLavanda:'./img/Soap/Lavanda/LavandaEn.png',
+
     },
     Otbel:{
         otbelTitle:'OXYGEN BLEACH ACNUR OXI ACTION 500 GR.',
@@ -789,8 +795,8 @@ export const tmLangData = {
         productsEl:{
             aknur:'Kir ýuwujy Ak Nur',
             ainur:'Kir ýuwujy Aý Nur',
-            soap:'Hajathana sabyny',
-            otbel:'Kislorod akartma'
+            soap:'GÖZELLIK SABYNY',
+            otbel:'KISLORODLY AGARDYJYSY'
         }
 
     },
@@ -879,7 +885,7 @@ export const tmLangData = {
         sliderBase: [
             {
                 id:1,
-                title:'aý nur Color',
+                title:'ak nur Color',
                 image:'img/detergent.png',
                 text:'“Ak Nur Color” - reňkli geýimleri awtomatiki kir ýuwujy maşynlarda we elde ýuwmaga niýetlenendir. '
             },
@@ -997,8 +1003,12 @@ export const tmLangData = {
         local:'Saklanyş şertleri:',
         localText:'-50С-den pes bolmadyk temperaturada we çyglylyk 75% -den köp bolmadyk ýerde saklamaly.',
 
-        circleMint:'Nane',
-        circleGranat:'Granat'
+        soapMint:'./img/Soap/Mint/MintTm.png',
+        soapGranat:'./img/Soap/Granat/GranatTm.png',
+        soapPersik:'./img/Soap/Persik/PersikTm.png',
+        soapLavanda:'./img/Soap/Lavanda/LavandaTm.png',
+
+
     },
     Otbel:{
         otbelTitle:'"Ak Nur Oxi Action" kislorodly agardyjysy 500 g',
