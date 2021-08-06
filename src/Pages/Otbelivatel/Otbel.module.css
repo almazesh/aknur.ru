@@ -167,7 +167,13 @@
 }
 
 
-@media (max-width:890px) {
+@media (max-width:1024px) {
+
+    .clean_banner{
+        width: 76%;
+        margin:auto;
+        margin-bottom: 200px;
+    }
     .clean_title h1{
         font-size: 28px;
          font-weight: 900;
@@ -255,6 +261,30 @@
 
 
 
+
+@media  (max-width:768px) {
+    .clean_banner{
+        width: 90%;
+        margin:auto;
+        margin-bottom: 200px;
+    }
+    .clean_title h1{
+        font-size: 28px;
+         font-weight: 900;
+         font-family: 'TT Hazelnuts';
+         line-height: 36px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #043480;
+        width: 95%;
+    }
+}
+
+
+
+
+
+
 @media  (max-width:500px) {
     .clean_title{
         padding-top: 200px;
@@ -329,6 +359,51 @@
 
 
 
+@media  (max-width:414px) {
+    .clean_title h1{
+        font-size: 20px;
+         font-weight: 900;
+         font-family: 'TT Hazelnuts';
+         line-height: 24px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #043480;
+        width: 100%;
+    }
+    
+    .clean_title p{
+        font-size: 10px !important;
+        font-weight: 400;
+        color: #043480;
+        width: 86%;
+        margin-top: 50px;
+        line-height: 30px;
+        font-family: 'Montserrat';
+    }
+    
+
+    .clean_right h2{
+        font-family: 'TT Hazelnuts';
+        font-weight: 900;
+        font-size:16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #043480;
+        width: 100%;
+        letter-spacing: 0.2em;
+    }
+    .clean_right{
+        width: 100%;
+    }
+    .clean_right p{
+        color: #043480;
+        font-size: 10px;
+        font-family: 'Montserrat';
+        line-height: 22px;
+        width: 100%;
+        font-weight: 400;
+    }
+}
 
 @media  (max-width:375px) {
     .clean_banner{

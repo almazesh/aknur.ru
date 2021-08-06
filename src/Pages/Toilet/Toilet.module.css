@@ -5,7 +5,7 @@
 .toilet_banner{
     width: 82.4%;
     margin: auto;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 
@@ -139,7 +139,7 @@
 
 
 
-@media  (max-width:768px) {
+@media  (max-width:1024px) {
     
 .combo{
     position: absolute;
@@ -148,9 +148,9 @@
 }
 
 .toilet_banner{
-    width: 90%;
+    width: 78%;
     margin: auto;
-    margin-bottom: 300px;
+    margin-bottom: 50px;
 }
 
 .none_el{
@@ -223,7 +223,7 @@
     .toilet_banner{
         width: 93%;
         margin: auto;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
     .soap_product{
         display: flex;
@@ -264,7 +264,25 @@
         }
 }
 
-
+@media  (max-width:414px) {
+    .toilet_title p{
+        color: #043480;
+        font-family: 'Montserrat';
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 30px;
+        width:100%;
+        margin-top: 50px;
+    }
+    .toilet_content_right p{
+        color: #043480;
+        font-weight: 400;
+        font-family: 'Montserrat';
+        font-size: 10px;
+        line-height: 22px;
+        width: 100%;
+        }
+}
 
 @media  (max-width:375px) {
     .toilet_title h1{
@@ -276,6 +294,8 @@
         text-transform: uppercase;
         color: #043480;
     }
+
+    
 }
 
 
@@ -288,6 +308,16 @@
         height: 502px;
         border-radius: 120px;
     }
+}
+
+
+@media  (max-width:768px) {
+    .toilet_banner{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
 }
 
 

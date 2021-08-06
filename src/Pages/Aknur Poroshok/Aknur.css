@@ -10,7 +10,7 @@
     width: 300px;
     height: 400px;
     background: #89CDEA;
-    border-radius: 80px;
+    border-radius: 100px;
 }
 .slide_inlines .first{
     width: 90px;
@@ -413,7 +413,7 @@
         letter-spacing: 0.2em;
         text-transform: uppercase;
     }
-
+    
     .aknur_title p{
         color: rgba(4, 52, 128, 1);
         font-size: 10px;
@@ -422,6 +422,24 @@
         line-height: 22px;
         width: 100%;
         margin-top: 50px;
+    }
+    .aknur_right h2{
+        font-size: 16px;
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        line-height: 35px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: rgba(4, 52, 128, 1);
+    }
+    
+    .aknur_right p{
+        color: rgba(4, 52, 128, 1);
+        font-size: 10px;
+        line-height: 22px;
+        font-weight: 400;
+        font-family: 'Montserrat';
+    
     }
 }
 
@@ -448,6 +466,7 @@
         display: flex;
         margin-top: 0px;
     }
+    
 }
 
 

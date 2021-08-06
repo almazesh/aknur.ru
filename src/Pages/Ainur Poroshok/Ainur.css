@@ -396,7 +396,7 @@
         color: rgba(4, 52, 128, 1);
         font-weight: 900;
         font-family: 'TT Hazelnuts';
-        font-size: 28px;
+        font-size: 20px;
         line-height: 46,36px;
         letter-spacing: 0.2em;
         text-transform: uppercase;
@@ -404,7 +404,7 @@
     
     .ainur_title p{
         color: rgba(4, 52, 128, 1);
-        font-size: 18px;
+        font-size: 10px;
         font-weight: 400;
         font-family: 'Montserrat';
         line-height: 30px;
@@ -412,7 +412,43 @@
         margin-top: 50px;
     }
 
+    .ainur_right h2{
+        font-size: 16px !important;
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        line-height: 35px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: rgba(4, 52, 128, 1);
+    }
     
+    .ainur_right p{
+       
+        color: rgba(4, 52, 128, 1);
+        font-size: 10px;
+        line-height: 22px;
+        font-weight: 400;
+        font-family: 'Montserrat';
+    
+    }
+    .ainur_bubble_right div h1{
+        color: rgba(4, 52, 128, 1);
+        font-weight: 900;
+        font-family: 'TT Hazelnuts';
+        letter-spacing: 0.2em;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    
+    .ainur_bubble_right div p{
+        color: rgba(4, 52, 128, 1);
+        font-size: 10px;
+        line-height:30px;
+        width: 100%;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        margin-top: 30px;
+    }
     .ainur_right{
         width: 100%;
     }

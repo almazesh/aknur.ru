@@ -872,7 +872,7 @@ body{
         color: white;
         font-weight: 900;
         font-family: 'TT Hazelnuts';
-        font-size: 18px;
+        font-size: 16px;
         letter-spacing: 0.2em;
         line-height: 35px;
         text-transform: uppercase;
@@ -884,12 +884,10 @@ body{
         font-family: 'Montserrat';
         font-size: 12px;
         line-height: 22px;
-    
+        
     }
     
 }
-
-
 
 
 

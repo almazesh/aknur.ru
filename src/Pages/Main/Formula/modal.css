@@ -145,3 +145,155 @@
     letter-spacing: 0.2em;
     border-radius: 110px;
 }
+
+
+
+
+
+
+
+
+@media  (max-width:768px) {
+    .modal_card{
+        background: white;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .modal_background span{
+        position: absolute;
+        color: #043480;
+        font-size: 50px;
+        right: 2%;
+        top: 1%;
+    }
+    .modal_position{
+        width: 80%;
+        margin: auto;
+        padding-top: 120px;
+    }
+
+    .modal_position div input{
+        border: 0;
+        font-weight: 400;
+        text-transform: capitalize;
+        border-bottom: 2px solid #043480;
+        color: #043480 !important;
+        font-size: 14px;
+        font-family: 'Montserrat';
+        outline: 0;
+        padding: 10px 10px;
+        margin: 20px 0;
+    }
+
+    .modal_position .w-hun input{
+        width: 95%;
+        border: 0;
+        font-weight: 400;
+        border-bottom: 2px solid #043480;
+        color: #043480 !important;
+        font-size: 14px;
+        font-family: 'Montserrat';
+        outline: 0;
+        padding: 10px 10px;
+        margin: 20px 0;
+    }
+    .input_feed input{
+        padding: 100px 10px !important;
+        width: 95%;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+@media (max-width:414px) {
+    .modal_background span{
+        position: absolute;
+        color: #043480;
+        font-size: 40px;
+        right: 3%;
+        top: 1%;
+    }
+
+    .modal_position{
+        width: 85%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .modal_position div input{
+        border: 0;
+        font-weight: 400;
+        text-transform: capitalize;
+        border-bottom: 2px solid #043480;
+        color: #043480 !important;
+        font-size: 10px;
+        font-family: 'Montserrat';
+        outline: 0;
+        padding: 10px 0px;
+        margin: 15px 0;
+    }
+
+    .modal_position .w-hun input{
+        width: 100%;
+        border: 0;
+        font-weight: 400;
+        border-bottom: 2px solid #043480;
+        color: #043480 !important;
+        font-size: 10px;
+        font-family: 'Montserrat';
+        outline: 0;
+        padding: 10px 0px;
+        margin: 15px 0;
+    }
+
+    .input_inline2{
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .input_inline2 input{
+        width: 100% !important;
+    }
+
+    .input_feed input{
+        padding: 20px 0px !important;
+        width: 100%;
+    }
+
+
+    .input_inline{
+        width: 99% !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .input_inline select{
+        padding: 10px 10px;
+        width: 70px;
+        border:0;
+        color: #89CDEA;
+        outline: 0;
+        border-bottom: 2px solid #043480;
+        background: none;
+    }
+    
+    .input_inline input{
+        width: 60% !important;
+    }
+    .modal_btn{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 100px;
+    }
+}
