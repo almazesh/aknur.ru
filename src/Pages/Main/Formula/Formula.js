@@ -312,38 +312,13 @@ const Formula = () =>{
                                 </div>
                             </div>
                     </SwiperSlide> 
-                    <SwiperSlide className={cls.swiper9}>
-                        <div className={cls.product_card}>
-                                <img alt="" src={Granat}/>
-                                <div className={cls.product_card_abs}>
-                                    <h1>{Mains.productCard.soap}</h1>
-                                    <p>
-                                        {Mains.productCard.soapGranat}
-                                    </p>
-                                    <Link to='/soap-product'>
-                                        <button>{Mains.productCard.more}</button>
-                                    </Link>
-                                </div>
-                            </div>
-                    </SwiperSlide>
+                   
                    </Swiper>
                    </div>
                    </div>
                 ) : (
                     <div className={cls.slider}>
                     <div className={cls.slide_track}>
-                            <div className={cls.product_card}>
-                                <img alt="" src={Granat}/>
-                                <div className={cls.product_card_abs}>
-                                    <h1>{Mains.productCard.soap}</h1>
-                                    <p>
-                                        {Mains.productCard.soapGranat}
-                                    </p>
-                                    <Link to='/soap-product'>
-                                        <button>{Mains.productCard.more}</button>
-                                    </Link>
-                                </div>
-                            </div>
                             <div className={cls.product_card}>
                                 <img alt="" src={Aknurs}/>
                                 <div className={cls.product_card_abs}>
@@ -440,18 +415,7 @@ const Formula = () =>{
                                     </Link>
                                 </div>
                             </div>
-                            <div className={cls.product_card}>
-                                <img alt="" src={Granat}/>
-                                <div className={cls.product_card_abs}>
-                                    <h1>{Mains.productCard.soap}</h1>
-                                    <p>
-                                        {Mains.productCard.soapGranat}
-                                    </p>
-                                    <Link to='/soap-product'>
-                                        <button>{Mains.productCard.more}</button>
-                                    </Link>
-                                </div>
-                            </div>
+                          
                             <div className={cls.product_card}>
                                 <img alt="" src={Aknurs}/>
                                 <div className={cls.product_card_abs}>

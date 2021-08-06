@@ -685,7 +685,7 @@ export const enLangData = {
     },
     deepClear:{
         title:'Deep cleaning of the washing machine',
-        text1:'The condition of the washing machine significantly affects the cleanliness of the laundry. Regular cleaning of your washing machine is a simple process and should be done monthly. Состояние стиральной машины существенно влияет на чистоту белья. Регулярная чистка стиральной машины - простой процесс, и его следует проводить ежемесячно.',
+        text1:'The condition of your washing machine significantly affects the cleanliness of your laundry. Cleaning your washing machine regularly is a simple process and should be done on a monthly basis. ',
         text2:'To prevent washing machine odors, which can transfer odors to your clothes, use a washing machine cleaner and follow the instructions below to deep clean your washing machine:        ',
 
 

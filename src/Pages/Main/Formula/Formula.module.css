@@ -168,46 +168,41 @@ body{
     transform: translateY(5px);
 }
 
-.slide_track .product_card:nth-child(1){
+.slide_track .product_card:nth-child(2){
     transform: translateY(-73px);
     background: #D474AB;
 }
 
-.slide_track .product_card:nth-child(1) .product_card_abs button{
+.slide_track .product_card:nth-child(2) .product_card_abs button{
     background: #D474AB;
 }
 
-.slide_track .product_card:nth-child(3){
-    transform: translateY(-73px);
-    background: #D474AB;
-}
 
-.slide_track .product_card:nth-child(3) .product_card_abs button{
-    background: #D474AB;
-}
-
-.slide_track .product_card:nth-child(5){
+.slide_track .product_card:nth-child(4){
     transform: translateY(-73px);
     background: #AA97D8;
 }
 
-.slide_track .product_card:nth-child(5) .product_card_abs button{
+.slide_track .product_card:nth-child(4) .product_card_abs button{
     background: #AA97D8;
 }
-.slide_track .product_card:nth-child(7){
+
+.slide_track .product_card:nth-child(6){
     transform: translateY(-73px);
     background: #D474AB;
 }
 
-.slide_track .product_card:nth-child(7) .product_card_abs button{
+.slide_track .product_card:nth-child(6) .product_card_abs button{
     background: #D474AB;
 }
-.slide_track .product_card:nth-child(9){
+
+
+.slide_track .product_card:nth-child(8){
     transform: translateY(-73px);
     background: #62B08F;
 }
 
-.slide_track .product_card:nth-child(9) .product_card_abs button{
+.slide_track .product_card:nth-child(8) .product_card_abs button{
     background: #62B08F;
 }
 
@@ -219,6 +214,12 @@ body{
 .slide_track .product_card:nth-child(10) .product_card_abs button{
     background: #D474AB;
 }
+/*  
+
+
+
+
+
 .slide_track .product_card:nth-child(12){
     transform: translateY(-73px);
     background: #D474AB;
@@ -226,7 +227,7 @@ body{
 
 .slide_track .product_card:nth-child(12) .product_card_abs button{
     background: #D474AB;
-}
+} */
 .slide_track:hover{
     animation-play-state: paused;
 }
@@ -234,7 +235,7 @@ body{
 .slide_track{
     margin-top: 150px;
     display: flex;
-    width: calc(250px * 25.5);
+    width: calc(250px * 25.7);
     justify-content: space-evenly;
     animation: scroll 19s linear infinite;
 }
