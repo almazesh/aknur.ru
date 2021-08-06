@@ -37,7 +37,7 @@ const Method = () =>{
                         <p>
                             {Method.methodText1}
                         <br/><br/>
-                       ]    {Method.methodText2}
+                          {Method.methodText2}
                         <br/><br/>
                             {Method.methodText3}
                         </p>

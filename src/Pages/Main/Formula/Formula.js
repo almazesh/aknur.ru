@@ -633,10 +633,105 @@ const Formula = () =>{
                                 </div> 
                                 <div className='input_inline'>
                                     <select onChange={e => setCode(e.target.value)} defaultValue={code}>
-                                        <opiton value='+'>
-                                            +
-                                        </opiton >
-                                        
+                                    <option value="+">
+                                        +
+                                    </option>
+                                    <option value="+61">
+                                        +61
+                                    </option>
+                                    <option value="+43">
+                                        +43
+                                    </option>
+                                    <option value="+994">
+                                        +994
+                                    </option>
+                                    <option value="+355">
+                                        +355
+                                    </option>
+                                    <option value="+213">
+                                        +213
+                                    </option>
+                                    <option value="+684">
+                                        +684
+                                    </option>
+                                    <option value="+1264">
+                                        +1264
+                                    </option>
+                                    <option value="+244">
+                                        +244
+                                    </option>
+                                    <option value="+376">
+                                        +376
+                                    </option>
+                                    <option value="+672">
+                                        +672
+                                    </option>
+                                    <option value="+1268">
+                                        +1268
+                                    </option>
+                                    <option value="+971">
+                                        +971
+                                    </option>
+                                    <option value="+54">
+                                        +54
+                                    </option>
+                                    <option value="+374">
+                                        +374
+                                    </option>
+                                    <option value="+297">
+                                        +297
+                                    </option>
+                                    <option value="+93">
+                                        +93
+                                    </option>
+                                    <option value="+1242">
+                                        +1242
+                                    </option>
+                                    <option value="+880">
+                                        +880
+                                    </option>
+                                    <option value="+1246">
+                                        +1246
+                                    </option>
+                                    <option value="+973">
+                                        +973
+                                    </option>
+                                    <option value="+375">
+                                        +375
+                                    </option>
+                                    <option value="+501">
+                                        +501
+                                    </option>
+                                    <option value="+32">
+                                        +32
+                                    </option>
+                                    <option value="+229">
+                                        +229
+                                    </option>
+                                    <option value="+1441">
+                                        +1441
+                                    </option>
+                                    <option value="+359">
+                                        +359
+                                    </option>
+                                    <option value="+591">
+                                        +591
+                                    </option>
+                                    <option value="+387">
+                                        +387
+                                    </option>
+                                    <option value="+267">
+                                        +267
+                                    </option>
+                                    <option value="+55">
+                                        +55
+                                    </option>
+                                    <option value="+246">
+                                        +246
+                                    </option>
+                                    <option value="+673">
+                                        +673
+                                    </option>
                                     </select>
                                     <input type='number' placeholder={Contact.inputNumber} onChange={e => setNumber(e.target.value)} value={number}/>
                                 </div> 
@@ -727,8 +822,7 @@ const Formula = () =>{
                         <div className={cls.article_card}>
                             <img alt="" src={One}/>
                             <h1>{Mains.goodFor.rightClear}</h1>
-                            <Link to='right-clear
-                            '>{Mains.productCard.more}</Link>
+                            <Link to='/right-clear'>{Mains.productCard.more}</Link>
                         </div>
                         <div className={cls.article_card}>
                             <img alt="" src={Two}/>
@@ -758,8 +852,7 @@ const Formula = () =>{
                         <div className={cls.article_card}>
                             <img alt="" src={One}/>
                             <h1>{Mains.goodFor.rightClear}</h1>
-                            <Link to='right-clear
-                            '>{Mains.productCard.more}</Link>
+                            <Link to='/right-clear'>{Mains.productCard.more}</Link>
                         </div>
                         <div className={cls.article_card}>
                             <img alt="" src={Two}/>
