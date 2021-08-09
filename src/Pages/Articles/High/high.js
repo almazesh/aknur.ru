@@ -37,11 +37,11 @@ const High = () =>{
 
                 <div className={cls.clean_buttons}>
                     <div className={cls.clean_twoButtons}>
-                       <Link to="/high-clear">
-                        <button className={cls.activeBtn}>5</button>
+                       <Link to="/deepclear">
+                        <button className={cls.activeBtn}>4</button>
                        </Link>
                         <Link to='/method'>
-                            <button className={cls.unActiveBtn}>6</button>
+                            <button className={cls.unActiveBtn}>5</button>
                         </Link>
                     </div>
                     <div className={cls.clean_allArticle }>

@@ -58,11 +58,11 @@ const Lifehack = () =>{
 
                 <div className={cls.clean_buttons}>
                     <div className={cls.clean_twoButtons}>
-                        <Link to='/lifehack'>
-                             <button className={cls.activeBtn}>3</button>
+                        <Link to='/right-clear'>
+                             <button className={cls.activeBtn}>1</button>
                         </Link>
-                        <Link to="/deepclear">
-                            <button className={cls.unActiveBtn}>4</button>
+                        <Link to="/prostyn">
+                            <button className={cls.unActiveBtn}>2</button>
                         </Link>
                     </div>
                     <div className={cls.clean_allArticle }>

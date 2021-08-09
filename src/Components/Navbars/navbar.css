@@ -227,7 +227,7 @@
     display: none;
 }
 
-@media  (max-width:768px) {
+@media  (max-width:1024px) {
         
 .sidebar_banner{
     background: #043480;
@@ -308,7 +308,7 @@
     display: none;
 }
 
-@media (max-width:768px) {
+@media (max-width:1024px) {
     .multi_banner{
         background: #043480;
         height: 100vh;
@@ -382,7 +382,7 @@
     display: none;
 }
 
-@media (max-width:768px) {
+@media (max-width:1024px) {
     .contact_banner{
         background: #043480;
         height: 100vh;
@@ -736,7 +736,7 @@
 
 /* MEDIA */
 
-@media  (max-width:768px) {
+@media  (max-width:1024px) {
     .nav_right {
         display: none;
     }

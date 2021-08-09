@@ -51,11 +51,11 @@ const Deepclear = () =>{
 
                 <div className={cls.clean_buttons}>
                     <div className={cls.clean_twoButtons}>
-                        <Link to='/deepclear'>
-                            <button className={cls.activeBtn}>4</button>
+                        <Link to='/prostyn'>
+                            <button className={cls.activeBtn}>3</button>
                         </Link>
                         <Link to='/high-clear'>
-                            <button className={cls.unActiveBtn}>5</button>
+                            <button className={cls.unActiveBtn}>4</button>
                         </Link>
                     </div>
                     <div className={cls.clean_allArticle }>

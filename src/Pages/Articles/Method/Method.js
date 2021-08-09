@@ -79,11 +79,11 @@ const Method = () =>{
 
                 <div className={cls.clean_buttons}>
                     <div className={cls.clean_twoButtons}>
-                        <Link to='/method'>
-                        <button className={cls.activeBtn}>6</button>
+                        <Link to='/high-clear'>
+                            <button className={cls.activeBtn}>5</button>
                         </Link>
-                        <Link t='/'>
-                        <button className={cls.unActiveBtn}>7</button>
+                        <Link t='/method'>
+                        <button className={cls.unActiveBtn}>6</button>
                         </Link>
                     </div>
                     <div className={cls.clean_allArticle }>

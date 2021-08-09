@@ -80,10 +80,10 @@ const Prostyn = () =>{
                  </div>
                  <div className={cls.clean_buttons}>
                     <div className={cls.clean_twoButtons}>
-                        <Link to='/prostyn'>
+                        <Link to='/lifehack'>
                             <button className={cls.activeBtn}>2</button>
                         </Link>
-                        <Link to='/lifehack'>
+                        <Link to='/deepclear'>
                             <button className={cls.unActiveBtn}>3</button>
                         </Link>
                     </div>

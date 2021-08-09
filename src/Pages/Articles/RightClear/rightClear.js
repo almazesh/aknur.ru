@@ -95,7 +95,7 @@ const RightClear = () =>{
                         <Link to='/right-clear'>
                             <button className={cls.activeBtn}>1</button>    
                         </Link>
-                        <Link to='/prostyn'>
+                        <Link to='/lifehack'>
                             <button className={cls.unActiveBtn}>2</button>
                         </Link>
                     </div>
